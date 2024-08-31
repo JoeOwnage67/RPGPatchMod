@@ -1,151 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>[CZK] Eye Prosthetics (Continued)</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <operations>				
-				<!-- tribal eyepatch change ingredients -->    
-			    <li Class="PatchOperationReplace">
-			    	<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/ingredients</xpath>
-			        <value>
-			            <ingredients>
-			                <li>
-			                    <filter>
-			                        <categories>
-			        					<li>Leathers</li>
+		<!-- tribal eyepatch change ingredients -->
+    	<Operation Class="PatchOperationalConditional">
+		<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/ingredients</xpath>					    
+			<match Class="PatchOperationReplace">
+			   	<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/ingredients</xpath>
+					<value>
+						<ingredients>
+							<li>
+								<filter>
+									<categories>
+										<li>Leathers</li>
 			        				</categories>    
 			                    </filter>
 			                    <count>5</count>
 			                </li>
 			            </ingredients>
 			        </value>
-			    </li>
-				<li Class="PatchOperationAdd">
-		        	<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/fixedIngredientFilter/categories</xpath>
-		           	<value>                   	
-		               	<li>Leathers</li>
+		    </match>
+		</Operation>				
+		
+		<Operation Class="PatchOperationalConditional">
+		<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/fixedIngredientFilter/categories</xpath>				
+			<match Class="PatchOperationAdd">
+		       	<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/fixedIngredientFilter/categories</xpath>
+					<value>                   	
+						<li>Leathers</li>
 		            </value>
-				</li>
+			</match>
+		</Operation>
+		
+		<!-- tribal eyepatch add research requirement-->		
+		<Operation Class="PatchOperationalConditional">
+		<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]</xpath>	
+			<match Class="PatchOperationAdd">
+			<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]</xpath>
+				<value>
+					<researchPrerequisite>DankPyon_LeatherTanning</researchPrerequisite>
+				</value>
+			</match>
+		</Operation>
+							
+		<!-- eyepatch change research requirement -->
+		<Operation Class="PatchOperationalConditional">
+		<xpath>Defs/RecipeDef[defName="EPR_FitEyepatch"]/researchPrerequisite</xpath>	
+			<match Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="EPR_FitEyepatch"]/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisite>DankPyon_TextileSpinning</researchPrerequisite>
+				</value>
+    		</match>
+		</Operation>
+		
+		<!-- eyepatch change ingredients -->
+		<Operation Class="PatchOperationalConditional">
+		<xpath>Defs/RecipeDef[defName="EPR_FitEyepatch"]/ingredients</xpath>	
+			<match Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="EPR_FitEyepatch"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Cloth</li>
+									<li>DankPyon_Linen</li>
+								</thingDefs>    
+							</filter>
+							<count>5</count>
+						</li>
+					</ingredients>
+				</value>
+			</match>
+		</Operation>
+		
+		<Operation Class="PatchOperationalConditional">
+		<xpath>Defs/RecipeDef[defName="EPR_FitEyepatch"]/fixedIngredientFilter</xpath>	
+			<match Class="PatchOperationAdd">
+			<xpath>Defs/RecipeDef[defName="EPR_FitEyepatch"]/fixedIngredientFilter</xpath>
+				<value>
+					<thingDefs>
+					    <li>Cloth</li>
+						<li>DankPyon_Linen</li>
+					</thingDefs>
+				</value>
+			</match>
+		</Operation>
+        
+		<!-- remove MMED eyepatch -->
+		<Operation Class="PatchOperationalConditional">
+		<xpath>Defs/RecipeDef[defName="InstallEyePatch"]</xpath>		                
+			<match Class="PatchOperationRemove">
+			<xpath>Defs/RecipeDef[defName="InstallEyePatch"]</xpath>
+			</match>
+		</Operation>
+		
+		<Operation Class="PatchOperationalConditional">
+		<xpath>Defs/ThingDef[defName="EyePatch"]</xpath>		                
+			<match Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="EyePatch"]</xpath>
+			</match>
+		</Operation>
+
+		<!-- change glass eye recipe to use glass -->
+		<Operation Class="PatchOperationalConditional">
+		<xpath>Defs/RecipeDef[defName="EPR_InstallGlassEye"]/ingredients</xpath>
+			<match Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="EPR_InstallGlassEye"]/ingredients</xpath>
+			    <value>
+			        <ingredients>
+			            <li>
+			                <filter>
+			                    <categories>
+			        				<li>Medicine</li>
+			        			</categories>
+			                </filter>
+			                 <count>1</count>
+			            </li>
+						<li>
+			                <filter>
+			                    <thingDefs>
+			        				<li>RB_Glass</li>                                    
+			        			</thingDefs>   
+			                </filter>
+			                <count>2</count>
+			            </li>
+			        </ingredients>
+			    </value>
+			</match>	
+		</Operation>
 				
-				<!-- Medieval Overhaul required -->
-				<li Class="PatchOperationFindMod">
-					<mods>
-			            <li>Medieval Overhaul</li>
-			        </mods>
-					<match Class="PatchOperationSequence">
-            			<operations>
-							
-							<!-- tribal eyepatch change research -->
-							<li Class="PatchOperationAdd">
-						    	<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]</xpath>
-						        <value>
-						            <researchPrerequisite>DankPyon_LeatherTanning</researchPrerequisite>
-						        </value>
-						    </li>
-							
-							<!-- eyepatch change research -->
-							<li Class="PatchOperationReplace">
-						    	<xpath>Defs/RecipeDef[defName="EPR_FitEyepatch"]/researchPrerequisite</xpath>
-						        <value>
-						        	<researchPrerequisite>DankPyon_TextileSpinning</researchPrerequisite>
-						        </value>
-    						</li>
-
-							<!-- eyepatch change ingredients -->
-					   		<li Class="PatchOperationReplace">
-					        	<xpath>Defs/RecipeDef[defName="EPR_FitEyepatch"]/ingredients</xpath>
-					        	<value>
-					            	<ingredients>
-					                	<li>
-					                    	<filter>
-					                        	<thingDefs>
-					        						<li>Cloth</li>
-					                                <li>DankPyon_Linen</li>
-					        					</thingDefs>    
-					                        </filter>
-					                    	<count>5</count>
-					                    </li>
-					                </ingredients>
-					            </value>
-					        </li>
-							<li Class="PatchOperationAdd">
-					        <xpath>Defs/RecipeDef[defName="EPR_FitEyepatch"]/fixedIngredientFilter</xpath>
-					        	<value>
-									<thingDefs>
-					            		<li>Cloth</li>
-										<li>DankPyon_Linen</li>
-									</thingDefs>
-					    	   </value>
-							</li>
-						</operations>
-        			</match>
-				</li>	
-
-				<!-- Medieval Medicines: Medieval Overhaul Edition required -->
-				<li Class="PatchOperationFindMod">
-					<mods>
-			            <li>Medieval Medicines Medieval Overhaul Edition</li>
-			        </mods>
-					<match Class="PatchOperationSequence">
-            			<operations>
-							
-							<!-- remove MMED eyepatch -->
-			                <li Class="PatchOperationRemove">
-			                    <xpath>Defs/ThingDef[defName="EyePatch"]</xpath>
-			                </li>
-							<li Class="PatchOperationRemove">
-			                    <xpath>Defs/RecipeDef[defName="InstallEyePatch"]</xpath>
-			                </li>
-						</operations>
-        			</match>
-				</li>
-
-				<!-- ReBuild: Doors and Corners required -->
-				<li Class="PatchOperationFindMod">
-					<mods>
-			            <li>ReBuild: Doors and Corners</li>
-			        </mods>
-					<match Class="PatchOperationSequence">
-            			<operations>
-							
-							<!-- change glass eye recipe to use glass -->
-			                <li Class="PatchOperationReplace">
-			                    <xpath>Defs/RecipeDef[defName="EPR_InstallGlassEye"]/ingredients</xpath>
-			                    <value>
-			                        <ingredients>
-			                            <li>
-			                                <filter>
-			                                    <categories>
-			        						        <li>Medicine</li>
-			        					        </categories>
-			                                </filter>
-			                                <count>1</count>
-			                            </li>
-			                                <filter>
-			                                    <thingDefs>
-			        						        <li>RB_Glass</li>                                    
-			        					        </thingDefs>   
-			                                </filter>
-			                                <count>2</count>
-			                            </li>
-			                        </ingredients>
-			                    </value>
-			                </li>
-							<li Class="PatchOperationAdd">
-			                    <xpath>Defs/RecipeDef[defName="EPR_InstallGlassEye"]/fixedIngredientFilter</xpath>
-			                    <value>
-									<thingDefs>
-			                    		<li>RB_Glass</li>							
-									</thingDefs>
-			                    </value>
-							</li>							
-						</operations>
-        			</match>
-				</li>
-        	</operations>
-        </match>
-    </Operation>
-</Patch>
+		<Operation Class="PatchOperationalConditional">
+		<xpath>Defs/RecipeDef[defName="EPR_InstallGlassEye"]/fixedIngredientFilter</xpath>		
+			<match Class="PatchOperationAdd">
+			<xpath>Defs/RecipeDef[defName="EPR_InstallGlassEye"]/fixedIngredientFilter</xpath>
+			    <value>
+					<thingDefs>
+			            <li>RB_Glass</li>							
+					</thingDefs>
+			    </value>
+		</Operation>
+	</Patch>

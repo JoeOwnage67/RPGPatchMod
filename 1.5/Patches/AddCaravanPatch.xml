@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>  
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Medieval Overhaul</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <operations>
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs/FactionDef[@Name="DankPyon_NobleHouseFactionBase"]/caravanTraderKinds</xpath>
-                    <value>                 
-                        <li>Caravan_ProstheticsTrader</li>
-                    </value>
-                </li>
-            </operations>
+    <Operation Class="PatchOperationalConditional">
+	<xpath>Defs/FactionDef[@Name="DankPyon_NobleHouseFactionBase"]/caravanTraderKinds</xpath>
+        <match Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="DankPyon_NobleHouseFactionBase"]/caravanTraderKinds</xpath>
+            <value>                 
+                <li>Caravan_ProstheticsTrader</li>
+            </value>
         </match>
     </Operation>    
 </Patch>

@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>FRBE Addon - Loxo</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <operations>
+
             	
             <!-- Add Tordune Head -->
-                <li Class="PatchOperationAdd">
+			
+			<Operation Class="PatchOperationalConditional">
+				<xpath>Defs/GeneDef[defName="SAB_LoxoHead"]/forcedHeadTypes</xpath>
+                <match Class="PatchOperationAdd">
                     <xpath>Defs/GeneDef[defName="SAB_LoxoHead"]/forcedHeadTypes</xpath>
-                        <value>
-                            <li>LHeadTorduneRight</li>
-                            <li>LHeadTorduneLeft</li>
-                        </value>   
-                </li>
-       	    </operations>
-        </match>
-    </Operation>
+                    <value>
+						<li>LHeadTorduneRight</li>
+                        <li>LHeadTorduneLeft</li>
+                    </value>   
+				</match>
+			</Operation>
+
 </Patch>

@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>RPG Adventure Flavour Pack</li>
-        </mods>
-		<match Class="PatchOperationSequence">
-            <operations>
-                <li Class="PatchOperationReplace">
-                    <xpath>/Defs/GenStepDef[defName="MSSRPG_RPGLoot"</xpath>	
+    <Operation Class="PatchOperationalConditional">
+		<xpath>Defs/GenStepDef[defName="MSSRPG_RPGLoot"]/groups</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/GenStepDef[defName="MSSRPG_RPGLoot"]/groups</xpath>	
 					<value>
-					<GenStepDef>
-						<defName>MSSRPG_RPGLoot</defName>
-						<order>1601</order>
-						<genStep Class="GenStep_ScatterGroup">
-							<allowInWaterBiome>true</allowInWaterBiome>
-							<minSpacing>60</minSpacing>
-							<countPer10kCellsRange>0~3</countPer10kCellsRange>
-							<spotMustBeStandable>true</spotMustBeStandable>
-							<allowRoofed>false</allowRoofed>
-							<validators>
-								<li Class="ScattererValidator_Buildable">
-									<radius>2</radius>
-								</li>
-								<li Class="ScattererValidator_NoNonNaturalEdifices">
-									<radius>2</radius>
-								</li>
-							</validators>
 							<groups>
 								<li>
 									<things>
@@ -122,13 +101,8 @@
 									<filthChance>0.05</filthChance>
 									<clusterRectRadius>1~2</clusterRectRadius>
 								</li>
-							</groups>
-						</genStep>
-					</GenStepDef>
-					</value>
-                		
-                </li>
-            </operations>
-        </match>
+							</groups>						
+					</value>   
+				</match>	
     </Operation>    
 </Patch>

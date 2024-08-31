@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>RPG Adventure Flavour Pack</li>
-        </mods>
-		<match Class="PatchOperationSequence">
-            <operations>
-                <li Class="PatchOperationReplace">
-                    <xpath>/Defs/BiomeDef[defName="TropicalRainforest" or defName="TropicalSwamp" or defName="BorealForest" or defName="TemperateForest" or defName="TemperateSwamp" or defName="AB_IdyllicMeadows"]/wildAnimals</xpath>
-					<value>
-						<MSSRPG_Broombug>0.0</MSSRPG_Broombug>
-					</value>
-                </li>
-            </operations>
+    <Operation Class="PatchOperationalConditional">
+	<xpath>Defs/BiomeDef[defName="TropicalRainforest" or defName="TropicalSwamp" or defName="BorealForest" or defName="TemperateForest" or defName="TemperateSwamp" or defName="AB_IdyllicMeadows"]/wildAnimals</xpath>
+        <match Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TropicalRainforest" or defName="TropicalSwamp" or defName="BorealForest" or defName="TemperateForest" or defName="TemperateSwamp" or defName="AB_IdyllicMeadows"]/wildAnimals</xpath>
+			<value>
+				<MSSRPG_Broombug>0.0</MSSRPG_Broombug>
+			</value>
         </match>
     </Operation>    
 </Patch>
