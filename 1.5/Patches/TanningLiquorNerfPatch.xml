@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Medieval Overhaul</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <operations>
-			<!-- tanning rack runs out of liquor less often -->
-			<li Class="PatchOperationalConditional">
+<!-- tanning rack runs out of liquor less often -->
+	<Operation Class="PatchOperationalConditional">
+		<xpath>Defs/ThingDef[defName="DankPyon_TanningRack"]/comps/li[@Class="CompProperties_Refuelable"]/fuelConsumptionRate</xpath>
+		<match Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="DankPyon_TanningRack"]/comps/li[@Class="CompProperties_Refuelable"]/fuelConsumptionRate</xpath>
-			    <match Class="PatchOperationReplace">
-			        <xpath>Defs/ThingDef[defName="DankPyon_TanningRack"]/comps/li[@Class="CompProperties_Refuelable"]/fuelConsumptionRate</xpath>
-			        <value>
-			            <fuelConsumptionRate>1</fuelConsumptionRate>
-			        </value>
-			    </match>
-			</li>
-       	    </operations>
-        </match>
-    </Operation>
+			<value>
+				<fuelConsumptionRate>1</fuelConsumptionRate>
+			</value>
+		</match>
+	</Operation>
 </Patch>
