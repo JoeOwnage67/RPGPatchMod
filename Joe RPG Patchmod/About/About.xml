@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Joe's RPG Adventure Flavour Pack Custom Patches</name>
+	<author>Joe Daly</author>
+	<url>https://github.com/JoeOwnage67/</url>
+	<supportedVersions>        	
+			<li>1.5</li>
+    </supportedVersions>
+	<packageId>JoeDaly.CustomPatches.RPG</packageId>
+  
+	<loadAfter>
+		<li>MrSamuelStreamer.RPGAdventureFlavour</li>	
+		<li>DankPyon.Medieval.Overhaul</li>
+		<li>JoeDaly.MedMeds.MO</li>		
+	</loadAfter>
+
+	<modDependencies>
+	  <li>
+			<packageId>DankPyon.Medieval.Overhaul</packageId>
+			<displayName>Medieval Overhaul</displayName>
+	  </li>
+	  <li>
+			<packageId>JoeDaly.MedMeds.MO</packageId>
+			<displayName>Medieval Medicines Medieval Overhaul Edition</displayName>
+	  </li>
+	  <li>
+			<packageId>MrSamuelStreamer.RPGAdventureFlavour</packageId>
+			<displayName>RPG Adventure Flavour Pack</displayName>
+	  </li>
+	</modDependencies>
+	<description>Custom Patches for RPG Adventure Flavour Pack</description>
+</ModMetaData>
