@@ -5,11 +5,14 @@
     <xpath>Defs/XenotypeDef[defName="MSSRPG_Balrog"]</xpath>
     <match Class="PatchOperationRemove">
         <xpath>Defs/XenotypeDef[defName="MSSRPG_Balrog"]</xpath>
+	</match>
 	</Operation>
+	
 
 	<Operation Class="PatchOperationalConditional">
 	    <xpath>Defs/PawnKindDef[defName="MSSRPG_UnderDweller"/xenotypeSet/xenotypeChances/MSSRPG_Balrog</xpath>
 	    <match Class="PatchOperationRemove">
 	        <xpath>Defs/PawnKindDef[defName="MSSRPG_UnderDweller"/xenotypeSet/xenotypeChances/MSSRPG_Balrog</xpath>
+		</match>
 	</Operation>
 </Patch>
