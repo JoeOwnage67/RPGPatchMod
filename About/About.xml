@@ -17,15 +17,7 @@
         <li>zal.eyeprosthetics</li>		
 	</loadAfter>
 
-	<modDependencies>
-	  <li>
-			<packageId>DankPyon.Medieval.Overhaul</packageId>
-			<displayName>Medieval Overhaul</displayName>
-	  </li>
-	  <li>
-			<packageId>JoeDaly.MedMeds.MO</packageId>
-			<displayName>Medieval Medicines Medieval Overhaul Edition</displayName>
-	  </li>
+	<modDependencies>	  
 	  <li>
 			<packageId>MrSamuelStreamer.RPGAdventureFlavour</packageId>
 			<displayName>RPG Adventure Flavour Pack</displayName>
