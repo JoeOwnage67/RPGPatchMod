@@ -2,9 +2,9 @@
 
 <Patch>
     <Operation Class="PatchOperationalConditional">
-	<xpath>Defs/BiomeDef[defName="TropicalRainforest" or defName="TropicalSwamp" or defName="BorealForest" or defName="TemperateForest" or defName="TemperateSwamp" or defName="AB_IdyllicMeadows"]/wildAnimals</xpath>
+	<xpath>Defs/BiomeDef[defName="TropicalRainforest" or defName="TropicalSwamp" or defName="BorealForest" or defName="TemperateForest" or defName="TemperateSwamp" or defName="AB_IdyllicMeadows"]/wildAnimals/MSSRPG_Broombug</xpath>
         <match Class="PatchOperationReplace">
-        <xpath>Defs/BiomeDef[defName="TropicalRainforest" or defName="TropicalSwamp" or defName="BorealForest" or defName="TemperateForest" or defName="TemperateSwamp" or defName="AB_IdyllicMeadows"]/wildAnimals</xpath>
+        <xpath>Defs/BiomeDef[defName="TropicalRainforest" or defName="TropicalSwamp" or defName="BorealForest" or defName="TemperateForest" or defName="TemperateSwamp" or defName="AB_IdyllicMeadows"]/wildAnimals/MSSRPG_Broombug</xpath>
 			<value>
 				<MSSRPG_Broombug>0.0</MSSRPG_Broombug>
 			</value>
