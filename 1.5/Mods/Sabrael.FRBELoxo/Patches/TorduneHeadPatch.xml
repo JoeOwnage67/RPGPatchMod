@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+            	
+            <!-- Add Tordune Head -->
+			
+			<Operation Class="PatchOperationalConditional">
+				<xpath>Defs/GeneDef[defName="SAB_LoxoHead"]/forcedHeadTypes</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/GeneDef[defName="SAB_LoxoHead"]/forcedHeadTypes</xpath>
+                    <value>
+                        <li>LHeadOne</li>
+                        <li>LHeadTwo</li>
+						<li>LHeadTorduneRight</li>
+                        <li>LHeadTorduneLeft</li>
+                    </value>   
+				</match>
+			</Operation>
+
+</Patch>
