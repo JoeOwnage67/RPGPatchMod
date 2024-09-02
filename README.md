@@ -12,13 +12,13 @@ Removed:
 
 Added:
 
-    compatibility for [CZK] Eye Prosthetics (Continued):
+    Compatibility for [CZK] Eye Prosthetics (Continued):
         changed research to align with Medieval Overhaul.
         made tribal eyepatch recipe use any leather instead of just light leather.
         made regular eyepatch recipe use cloth or linen.
         made glass eye use glass from Rebuild: Doors and Corners if mod is loaded.
 
-    compatibility for Medieval Medicines: Medieval Overhaul Edition added to cryptosleep casket patch.
+    Compatibility for Medieval Medicines: Medieval Overhaul Edition added to cryptosleep casket patch.
 
     "Tordune Head" textures and defs (Loxodon with an eyepatch) to Loxodon xenotype if mod is loaded.
 
