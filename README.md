@@ -6,7 +6,6 @@ My changes:
 
 Removed:
 
-    Broombug spawn from biomes.
     Balrog xenotype.
     Medieval Overhaul defs: DankPyon_Book_AncientCodex, DankPyon_Book_IntoTheRuins, DankPyon_Book_TheBeginning.
     Medieval Med: MO Edition eye patch if [CZK] Eye Prosthetics (Continued) is loaded.
@@ -39,3 +38,4 @@ Replaced:
 Changed:
 
     Nerfed the amount of tanning liquor the Medieval Overhaul tanning rack uses.
+    Broombug spawns less often in biomes.
