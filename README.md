@@ -33,7 +33,7 @@ Added:
 
 Replaced:
 
-    Oken's Medieval Quest Rewards with Botch Job's (USES PATCHED BASE GAME DEFS).
+    Oken's Medieval Quest Rewards with Botch Job's (uses patched base game defs).
 
 Changed:
 
