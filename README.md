@@ -6,8 +6,8 @@ My changes:
 
 Removed:
 
-    Balrog xenotype.
-    Medieval Overhaul defs: DankPyon_Book_AncientCodex, DankPyon_Book_IntoTheRuins, DankPyon_Book_TheBeginning.
+    Balrog xenotype. (was causing errors)
+    Medieval Overhaul defs: DankPyon_Book_AncientCodex, DankPyon_Book_IntoTheRuins, DankPyon_Book_TheBeginning. (were causing errors)
     Medieval Med: MO Edition eye patch if [CZK] Eye Prosthetics (Continued) is loaded.
 
 Added:
