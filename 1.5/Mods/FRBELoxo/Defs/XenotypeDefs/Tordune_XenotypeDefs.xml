@@ -22,6 +22,9 @@
 		    <li>Outland_BodyScale_Massive</li>
 		    <li>Loxo_Tusk_None</li>
 		    <li>Loxo_Tusk_Some</li>
+			<li>Aggression_DeadCalm</li>
+			<li>KindInstinct</li>
+			<li>Nearsighted</li>
 			<li MayRequire="RedMattis.BigSmall.Core">BS_ToughSkin</li>
 			<li MayRequire="RedMattis.BigSmall.Core">BS_SlowAging</li>
 			<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
