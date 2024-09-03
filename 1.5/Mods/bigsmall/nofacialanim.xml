@@ -34,6 +34,17 @@
                     </value>   
 				</match>
 			</Operation>
+
+	
+			<Operation Class="PatchOperationalConditional">
+				<xpath>Defs/XenotypeDef[defName="SAB_Gnoll"]/genes</xpath>
+                <match Class="PatchOperationAdd">
+                    <xpath>Defs/XenotypeDef[defName="SAB_Gnoll"]/genes</xpath>
+                    <value>
+						<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+                    </value>   
+				</match>
+			</Operation>
 			
 			
 
