@@ -3,10 +3,10 @@
   <v1.5>
     <li>/</li>
     <li>1.5</li>    
-    <li IfModActive="DankPyon.Medieval.Overhaul">1.5/Mods/DankPyon.Medieval.Overhaul</li>
-    <li IfModActive="zal.eyeprosthetics">1.5/Mods/zal.eyeprosthetics</li>
-    <li IfModActive="Sabrael.FRBELoxo">1.5/Mods/Sabrael.FRBELoxo</li>	
-    <li IfModActive="JoeDaly.MedMeds.MO">1.5/Mods/JoeDaly.MedMeds.MO</li>
+    <li IfModActive="DankPyon.Medieval.Overhaul">1.5/Mods/MedievalOverhaul</li>
+    <li IfModActive="zal.eyeprosthetics">1.5/Mods/eyeprosthetics</li>
+    <li IfModActive="Sabrael.FRBELoxo">1.5/Mods/FRBELoxo</li>	
+    <li IfModActive="JoeDaly.MedMeds.MO">1.5/Mods/MedMeds</li>
 	<li IfModActive="RedMattis.BetterPrerequisites">1.5/Mods/bigsmall</li>	
   </v1.5>
 </loadFolders>
