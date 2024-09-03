@@ -9,4 +9,14 @@
 			<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>	
 	    </value>   
 	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/PawnKindDef[defName="FRBE_ColonistLoxodon"]/xenotypeSet//xenotypeChances</xpath>
+		<value>
+			<xenotypeChances>
+				<SAB_Loxodon>0.98</SAB_Loxodon>
+				<Joe_TorduneLoxo>0.02</Joe_TorduneLoxo>
+			</xenotypeChances>
+	    </value>   
+	</Operation>
 </Patch>
