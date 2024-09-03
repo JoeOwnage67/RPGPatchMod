@@ -4,8 +4,8 @@
 	<XenotypeDef>
   		<defName>Joe_TorduneLoxo</defName>
   		<label>loxodon</label>
-  		<description> A rare wayfaring subspecies of Loxodon, a humanoid species of Elephants from Ravnica, who found their way to Faerûn. Loxodons are often oasis of calm in Ravnica. They hum or chant in sonorous tones and move slowly or sit in perfect stillness. As they say, "There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man."</description>
-  		<descriptionShort> A rare wayfaring subspecies of Loxodon, a humanoid species of Elephants from Ravnica, who found their way to Faerûn.</descriptionShort>
+  		<description> A rare wayfaring subspecies of Loxodon, that wears an eyepatch as a badge of honour. Loxodons were a humanoid species of Elephants from Ravnica, who found their way to Faerûn. Loxodons are often oasis of calm in Ravnica. They hum or chant in sonorous tones and move slowly or sit in perfect stillness. As they say, "There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man."</description>
+  		<descriptionShort> A rare wayfaring subspecies of Loxodon, that sport an eyepatch as a badge of honour. Loxodons were a humanoid species of Elephants from Ravnica, who found their way to Faerûn.</descriptionShort>
   		<iconPath>UI/Genes/LoxoFace</iconPath>
   		<inheritable>true</inheritable>
   		<genes>
