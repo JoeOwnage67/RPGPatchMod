@@ -10,6 +10,8 @@
     	  	<value>
 				<li>BS_ToughSkin</li>
 				<li>BS_SlowAging</li>
+				<li>Aggression_DeadCalm</li>
+				<li>KindInstinct</li>
         	</value>   
 		</match>
 	</Operation>
