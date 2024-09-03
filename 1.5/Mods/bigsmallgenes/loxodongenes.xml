@@ -9,6 +9,7 @@
         <xpath>Defs/XenotypeDef[defName="SAB_Loxodon"]/genes</xpath>
     	  	<value>
 				<li>BS_ToughSkin</li>
+				<li>BS_SlowAging</li>
         	</value>   
 		</match>
 	</Operation>
