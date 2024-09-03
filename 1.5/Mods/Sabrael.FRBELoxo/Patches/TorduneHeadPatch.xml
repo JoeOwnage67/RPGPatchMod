@@ -10,10 +10,12 @@
                 <match Class="PatchOperationReplace">
                     <xpath>Defs/GeneDef[defName="SAB_LoxoHead"]/forcedHeadTypes</xpath>
                     <value>
-                        <li>LHeadOne</li>
-                        <li>LHeadTwo</li>
-						<li>LHeadTorduneRight</li>
-                        <li>LHeadTorduneLeft</li>
+						<forcedHeadTypes>
+	                        <li>LHeadOne</li>
+	                        <li>LHeadTwo</li>
+							<li>LHeadTorduneRight</li>
+	                        <li>LHeadTorduneLeft</li>
+						</forcedHeadTypes>
                     </value>   
 				</match>
 			</Operation>
