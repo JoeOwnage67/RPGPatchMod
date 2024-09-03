@@ -2,9 +2,7 @@
 
 <Patch>
 		<!-- tribal eyepatch change ingredients -->
-    	<Operation Class="PatchOperationalConditional">
-		<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/ingredients</xpath>					    
-			<match Class="PatchOperationReplace">
+    	<Operation Class="PatchOperationReplace">
 			   	<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/ingredients</xpath>
 					<value>
 						<ingredients>
@@ -18,7 +16,6 @@
 			                </li>
 			            </ingredients>
 			        </value>
-		    </match>
 		</Operation>				
 		
 		<Operation Class="PatchOperationalConditional">
@@ -45,7 +42,7 @@
 			<operations>
 
 			<!-- tribal eyepatch add MO research requirement-->	
-				</li Class="PatchOperationalConditional">
+				<li Class="PatchOperationalConditional">
 				<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/researchPrerequisite</xpath>	
 					<match Class="PatchOperationReplace">
 					<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/researchPrerequisite</xpath>
@@ -79,9 +76,7 @@
 				</li>
 
 			<!-- eyepatch change ingredients -->
-				<li Class="PatchOperationalConditional">
-				<xpath>Defs/RecipeDef[defName="EPR_FitEyepatch"]/ingredients</xpath>	
-					<match Class="PatchOperationReplace">
+				<li Class="PatchOperationReplace">
 					<xpath>Defs/RecipeDef[defName="EPR_FitEyepatch"]/ingredients</xpath>
 						<value>
 							<ingredients>
@@ -91,7 +86,6 @@
 								</li>
 							</ingredients>
 						</value>
-					</match>
 				</li>
 
 				<li Class="PatchOperationalConditional">
@@ -121,23 +115,14 @@
 			<operations>
 
 			<!-- remove MMED eyepatch -->
-				<li Class="PatchOperationalConditional">
-				<xpath>Defs/RecipeDef[defName="InstallEyePatch"]</xpath>		                
-					<match Class="PatchOperationRemove">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/RecipeDef[defName="InstallEyePatch"]</xpath>
-					</match>
 				</li>
-				<li Class="PatchOperationalConditional">
-				<xpath>Defs/ThingDef[defName="EyePatch"]</xpath>		                
-					<match Class="PatchOperationRemove">
-					<xpath>Defs/ThingDef[defName="EyePatch"]</xpath>
-					</match>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EyePatch"]</xpath>					
 				</li>
-				<li Class="PatchOperationalConditional">
-				<xpath>Defs/HediffDef[defName="EyePatch"]</xpath>		                
-					<match Class="PatchOperationRemove">
-					<xpath>Defs/HediffDef[defName="EyePatch"]</xpath>
-					</match>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EyePatch"]</xpath>				
 				</li>
 			</operations>	
 		</match>
@@ -151,9 +136,7 @@
 			<operations>
 			
 			<!-- change glass eye recipe to use glass -->
-				<li Class="PatchOperationalConditional">
-				<xpath>Defs/RecipeDef[defName="EPR_InstallGlassEye"]/ingredients</xpath>
-					<match Class="PatchOperationReplace">
+				<li Class="PatchOperationReplace">
 					<xpath>Defs/RecipeDef[defName="EPR_InstallGlassEye"]/ingredients</xpath>
 			    		<value>
 			        		<ingredients>
