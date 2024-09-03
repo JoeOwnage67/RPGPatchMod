@@ -40,9 +40,9 @@
 		        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>
 		    </li>
 		</modExtensions>	
-		<abilities>
+		<!--<abilities>
 	    	<li>Joe_TorduneAbility</li>
-	    </abilities>
+	    </abilities> -->
 	</GeneDef>
 </Defs>
  
