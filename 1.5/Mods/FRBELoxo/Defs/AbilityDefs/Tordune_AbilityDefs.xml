@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AbilityDef>
+        <defName>Joe_TorduneAbilityLeft</defName>
+        <label>missing eye left</label>
+        <description>the Loxodon is missing its left eye</description>
+        <iconPath>UI/Genes/LoxoFace</iconPath>      
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>Joe_TorduneEyeLeft</hediffDef>
+                <replaceExisting>true</replaceExisting>
+            </li>            
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef>
+        <defName>Joe_TorduneAbilityRight</defName>
+        <label>missing eye left</label>
+        <description>the Loxodon is missing its right eye</description>
+        <iconPath>UI/Genes/LoxoFace</iconPath>      
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>Joe_TorduneEyeRight</hediffDef>
+                <replaceExisting>true</replaceExisting>
+            </li>            
+        </comps>
+     </AbilityDef>
+</Defs>
