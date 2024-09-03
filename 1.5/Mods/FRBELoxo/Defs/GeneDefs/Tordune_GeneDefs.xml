@@ -41,7 +41,7 @@
 		    </li>
 		</modExtensions>	
 		<abilities>
-	    	<li>SHG_Radiomancer_RampantRegeneration</li>
+	    	<li>Joe_TorduneAbility</li>
 	    </abilities>
 	</GeneDef>
 </Defs>
