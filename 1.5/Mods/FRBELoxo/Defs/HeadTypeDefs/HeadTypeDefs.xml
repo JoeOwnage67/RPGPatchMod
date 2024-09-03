@@ -6,7 +6,7 @@
 	      	<graphicPath>Pawn/Loxo/LHeadTorduneRight</graphicPath>
 	      	<gender>None</gender>
 	      	<requiredGenes>
-	        	<li>SAB_LoxoHead</li>
+	        	<li>Joe_TorduneHead</li>
 	      	</requiredGenes>
 	</HeadTypeDef>
 	
@@ -16,7 +16,7 @@
 	      	<graphicPath>Pawn/Loxo/LHeadTorduneLeft</graphicPath>
 	      	<gender>None</gender>
 	      	<requiredGenes>
-	        	<li>SAB_LoxoHead</li>
+	        	<li>Joe_TorduneHead</li>
 	      	</requiredGenes>
 	</HeadTypeDef>
 </Defs>
