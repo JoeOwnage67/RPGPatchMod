@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+	<!-- Tordune Head Right Eyepatch -->
 	<HeadTypeDef ParentName="AverageBase">
 	    	<defName>LHeadTorduneRight</defName>
 	      	<graphicPath>Pawn/Loxo/LHeadTorduneRight</graphicPath>
@@ -8,6 +9,8 @@
 	        	<li>SAB_LoxoHead</li>
 	      	</requiredGenes>
 	</HeadTypeDef>
+	
+	<!-- Tordune Head Left Eyepatch -->
 	<HeadTypeDef ParentName="AverageBase">
 	    	<defName>LHeadTorduneLeft</defName>
 	      	<graphicPath>Pawn/Loxo/LHeadTorduneLeft</graphicPath>
