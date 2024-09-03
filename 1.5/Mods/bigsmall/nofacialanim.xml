@@ -43,4 +43,55 @@
             </value>   
 		</match>
 	</Operation>
+
+	<!-- Bonereapers -->
+	<Operation Class="PatchOperationalConditional">
+	<xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Sepelire"]/genes</xpath>
+    	<match Class="PatchOperationAdd">
+        <xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Sepelire"]/genes</xpath>
+        	<value>
+				<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+            </value>   
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationalConditional">
+	<xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Thetes"]/genes</xpath>
+    	<match Class="PatchOperationAdd">
+        <xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Thetes"]/genes</xpath>
+        	<value>
+				<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+            </value>   
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationalConditional">
+	<xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Phalangite"]/genes</xpath>
+    	<match Class="PatchOperationAdd">
+        <xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Phalangite"]/genes</xpath>
+        	<value>
+				<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+            </value>   
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationalConditional">
+	<xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Archon"]/genes</xpath>
+    	<match Class="PatchOperationAdd">
+        <xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Archon"]/genes</xpath>
+        	<value>
+				<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+            </value>   
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationalConditional">
+	<xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Apokryphos"]/genes</xpath>
+    	<match Class="PatchOperationAdd">
+        <xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Apokryphos"]/genes</xpath>
+        	<value>
+				<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+            </value>   
+		</match>
+	</Operation>	
 </Patch>
