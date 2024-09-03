@@ -6,8 +6,8 @@ My changes:
 
 Removed:
 
-    Balrog xenotype. (was causing errors)
-    Medieval Overhaul defs: DankPyon_Book_AncientCodex, DankPyon_Book_IntoTheRuins, DankPyon_Book_TheBeginning. (were causing errors)
+    Balrog xenotype. (causing errors)
+    Medieval Overhaul defs: DankPyon_Book_AncientCodex, DankPyon_Book_IntoTheRuins, DankPyon_Book_TheBeginning. (causing errors)
     Medieval Med: MO Edition eye patch if [CZK] Eye Prosthetics (Continued) is loaded.
 
 Added:
@@ -20,7 +20,7 @@ Added:
 
     Compatibility for Medieval Medicines: Medieval Overhaul Edition added to cryptosleep casket patch.
 
-    "Tordune Head" textures and defs (Loxodon with an eyepatch) to Loxodon xenotype if mod is loaded.
+    Added Tordune subspecies to Loxodon xenotype if mod is loaded.
 
     Traveling Apothecary Artificer caravan added to MO Noble Houses that sells small quantities of:
         Medieval Med: MO Edition prosthetics and medicine
@@ -30,6 +30,8 @@ Added:
         more
 
     Library trader caravan now sells all Medieval Overhaul books, but will not always have them all available.
+
+    Added no-facial-animations gene to certain xenotypes where I have encountered problems.
 
 Replaced:
 
