@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>  
+  <v1.5>
+    <li>/</li>
+    <li>1.5</li>    
+    <li IfModActive="DankPyon.Medieval.Overhaul">1.5/Mods/DankPyon.Medieval.Overhaul</li>
+    <li IfModActive="zal.eyeprosthetics">1.5/Mods/zal.eyeprosthetics</li>
+    <li IfModActive="Sabrael.FRBELoxo">1.5/Mods/Sabrael.FRBELoxo</li>	
+    <li IfModActive="JoeDaly.MedMeds.MO">1.5/Mods/JoeDaly.MedMeds.MO</li>
+	<li IfModActive="RedMattis.BetterPrerequisites">1.5/Mods/bigsmall</li>	
+    <!-- <li IfModActive="Rebuild.COTRDoorsandCorners">1.5/Mods/Rebuild.COTRDoorsandCorners</li> -->
+  </v1.5>
+</loadFolders>
