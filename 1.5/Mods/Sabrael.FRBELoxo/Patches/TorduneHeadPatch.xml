@@ -18,18 +18,6 @@
 						</forcedHeadTypes>
                     </value>   
 				</match>
-			</Operation>
-
-		<!-- facial animation -->
-
-		<Operation Class="PatchOperationalConditional">
-				<xpath>Defs/XenotypeDef[defName="SAB_Loxodon"]/genes</xpath>
-                <match Class="PatchOperationAdd">
-                    <xpath>Defs/XenotypeDef[defName="SAB_Loxodon"]/genes</xpath>
-                    <value>
-						<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
-                    </value>   
-				</match>
-			</Operation>
+	
 
 </Patch>
