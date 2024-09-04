@@ -4,7 +4,7 @@
   		<defName>Joe_ObstructedVision</defName>
   		<label>Obstructed Vision</label>
   		<description>Pawns with this hediff have their vision obstructed due to wearing an eyepatch as a badge of honour.</description>
-  		<hediffClass>Hediff_Injury</hediffClass>
+  		<hediffClass>Hediff_Implant</hediffClass>
   		<tendable>false</tendable>
   		<isBad>false</isBad>
 		<hediffColor>(1.0, 0.65, 0.0, 1.0)</hediffColor>
@@ -14,8 +14,8 @@
   		<stages>
     		<li>
     			<label>Obstructed Vision</label>
-    			<minSeverity>0.1</minSeverity>
-    			<maxSeverity>0.5</maxSeverity>
+    			<minSeverity>0.2</minSeverity>
+    			<maxSeverity>1</maxSeverity>
 			</li>	
 			<capMods>
     			<li>
