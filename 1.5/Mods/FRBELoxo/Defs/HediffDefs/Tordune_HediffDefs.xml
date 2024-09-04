@@ -6,7 +6,8 @@
   		<description>Pawns with this hediff have their vision obstructed due to wearing an eyepatch as a badge of honour.</description>
   		<hediffClass>Hediff_Injury</hediffClass>
   		<tendable>false</tendable>
-  		<isBad>true</isBad>
+  		<isBad>false</isBad>
+		<hediffColor>(1.0, 0.65, 0.0, 1.0)</hediffColor>
   		<hediffGivers>
     		<li>HediffGiver_Constant</li>
   		</hediffGivers>
