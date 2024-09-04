@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <Operation Class="PatchOperationalConditional">
+    <Operation Class="PatchOperationConditional">
     <xpath>Defs/XenotypeDef[defName="MSSRPG_Balrog"]</xpath>
 		<match Class="PatchOperationRemove">
 			<xpath>Defs/XenotypeDef[defName="MSSRPG_Balrog"]</xpath>
 		</match>
 	</Operation>
 	
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 	    <xpath>Defs/PawnKindDef[defName="MSSRPG_UnderDweller"/xenotypeSet/xenotypeChances/MSSRPG_Balrog</xpath>
 	    <match Class="PatchOperationRemove">
 	        <xpath>Defs/PawnKindDef[defName="MSSRPG_UnderDweller"/xenotypeSet/xenotypeChances/MSSRPG_Balrog</xpath>
