@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <Operation Class="PatchOperationalConditional">
+    <Operation Class="PatchOperationConditional">
 	<xpath>Defs/BiomeDef[defName="TropicalRainforest" or defName="TropicalSwamp" or defName="BorealForest" or defName="TemperateForest" or defName="TemperateSwamp" or defName="AB_IdyllicMeadows"]/wildAnimals/MSSRPG_Broombug</xpath>
         <match Class="PatchOperationReplace">
         <xpath>Defs/BiomeDef[defName="TropicalRainforest" or defName="TropicalSwamp" or defName="BorealForest" or defName="TemperateForest" or defName="TemperateSwamp" or defName="AB_IdyllicMeadows"]/wildAnimals/MSSRPG_Broombug</xpath>
