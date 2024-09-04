@@ -3,7 +3,7 @@
 <Patch>
 	
 	<!-- loxodon -->
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 	<xpath>Defs/XenotypeDef[defName="SAB_Loxodon"]/genes</xpath>
        	<match Class="PatchOperationAdd">
         <xpath>Defs/XenotypeDef[defName="SAB_Loxodon"]/genes</xpath>
@@ -14,7 +14,7 @@
 	</Operation>
 			
 	<!-- gnoll -->	
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 	<xpath>Defs/XenotypeDef[defName="SAB_GnollAard"]/genes</xpath>
     	<match Class="PatchOperationAdd">
     	<xpath>Defs/XenotypeDef[defName="SAB_GnollAard"]/genes</xpath>
@@ -24,7 +24,7 @@
 		</match>
 	</Operation>
 			
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 	<xpath>Defs/XenotypeDef[defName="SAB_GnollFlind"]/genes</xpath>
     	<match Class="PatchOperationAdd">
         <xpath>Defs/XenotypeDef[defName="SAB_GnollFlind"]/genes</xpath>
@@ -34,7 +34,7 @@
 		</match>
 	</Operation>
 	
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 	<xpath>Defs/XenotypeDef[defName="SAB_Gnoll"]/genes</xpath>
     	<match Class="PatchOperationAdd">
         <xpath>Defs/XenotypeDef[defName="SAB_Gnoll"]/genes</xpath>
@@ -45,7 +45,7 @@
 	</Operation>
 
 	<!-- Bonereapers -->
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 	<xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Sepelire"]/genes</xpath>
     	<match Class="PatchOperationAdd">
         <xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Sepelire"]/genes</xpath>
@@ -55,7 +55,7 @@
 		</match>
 	</Operation>
 
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 	<xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Thetes"]/genes</xpath>
     	<match Class="PatchOperationAdd">
         <xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Thetes"]/genes</xpath>
@@ -65,7 +65,7 @@
 		</match>
 	</Operation>
 
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 	<xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Phalangite"]/genes</xpath>
     	<match Class="PatchOperationAdd">
         <xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Phalangite"]/genes</xpath>
@@ -75,7 +75,7 @@
 		</match>
 	</Operation>
 
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 	<xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Archon"]/genes</xpath>
     	<match Class="PatchOperationAdd">
         <xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Archon"]/genes</xpath>
@@ -85,7 +85,7 @@
 		</match>
 	</Operation>
 
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 	<xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Apokryphos"]/genes</xpath>
     	<match Class="PatchOperationAdd">
         <xpath>Defs/XenotypeDef[defName="pphhyy_BoneReaper_Apokryphos"]/genes</xpath>
