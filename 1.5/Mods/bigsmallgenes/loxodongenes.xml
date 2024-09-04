@@ -3,7 +3,7 @@
 <Patch>
 	
 	<!-- loxodon -->
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 	<xpath>Defs/XenotypeDef[defName="SAB_Loxodon"]/genes</xpath>
        	<match Class="PatchOperationAdd">
         <xpath>Defs/XenotypeDef[defName="SAB_Loxodon"]/genes</xpath>
