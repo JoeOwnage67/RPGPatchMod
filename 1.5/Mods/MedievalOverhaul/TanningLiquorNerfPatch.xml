@@ -2,7 +2,7 @@
 
 <Patch>
 <!-- tanning rack runs out of liquor less often -->
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="DankPyon_TanningRack"]/comps/li[@Class="CompProperties_Refuelable"]/fuelConsumptionRate</xpath>
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="DankPyon_TanningRack"]/comps/li[@Class="CompProperties_Refuelable"]/fuelConsumptionRate</xpath>
@@ -12,7 +12,7 @@
 		</match>
 	</Operation>
 
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="DankPyon_TanningRack"]/comps/li[@Class="CompProperties_Refuelable"]/fuelCapacity</xpath>
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="DankPyon_TanningRack"]/comps/li[@Class="CompProperties_Refuelable"]/fuelCapacity</xpath>
