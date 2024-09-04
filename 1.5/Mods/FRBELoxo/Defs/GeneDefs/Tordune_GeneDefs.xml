@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+
+	<!-- tordune head gene -->
 	<GeneDef ParentName="GeneJawBase">
 		<defName>Joe_TorduneHead</defName>
 		<label>tordune head</label>
@@ -42,6 +44,14 @@
 		    </li>
 		</modExtensions>	
 	</GeneDef>
+
+	<GeneDef ParentName="Nearsighted">
+		<defName>Joe_ObstructedVision</defName>
+		<label>obstructed vision</label>
+		<description>The followers of Tordune wear an eyepatch as a badge of honour. This causes their vision to be obstructed. Tordune Loxodons make up for this by being handy with a blade.</description>
+		<biostatMet>-3</biostatMet>
+	</GeneDef>	
+
 </Defs>
  
 
