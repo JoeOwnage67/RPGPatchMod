@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <Operation Class="PatchOperationalConditional">
+    <Operation Class="PatchOperationConditional">
 		<xpath>Defs/GenStepDef[defName="MSSRPG_RPGLoot"]/groups</xpath>
                 <match Class="PatchOperationReplace">
                     <xpath>Defs/GenStepDef[defName="MSSRPG_RPGLoot"]/groups</xpath>	
