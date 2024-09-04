@@ -4,7 +4,7 @@
 	<XenotypeDef>
   		<defName>Joe_TorduneLoxo</defName>
   		<label>tordune loxodon</label>
-  		<description>A rare subspecies of Loxodon, distinguished by their eyepatches worn as badges of honor, in homage to the legendary hero Tordune, who inspired a devoted following. Loxodons were a humanoid species of Elephants from Ravnica, who found their way to Faerûn. Loxodons are often oasis of calm in Ravnica. They hum or chant in sonorous tones and move slowly or sit in perfect stillness. As they say, "There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man."</description>
+  		<description>A rare subspecies of Loxodon, distinguished by their eyepatches worn as badges of honor, in homage to the legendary hero Tordune, who inspired a devoted following. Loxodons were a humanoid species of Elephants from Ravnica, who found their way to Faerûn. Loxodons are often an oasis of calm in Ravnica. They hum or chant in sonorous tones and move slowly or sit in perfect stillness. As they say, "There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man."</description>
   		<descriptionShort> A rare subspecies of Loxodon, distinguished by their eyepatches worn as badges of honor, in homage to the legendary hero Tordune, who inspired a devoted following.</descriptionShort>
   		<iconPath>UI/Genes/TorduneLoxoFace</iconPath>
   		<inheritable>true</inheritable>
