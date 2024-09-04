@@ -24,7 +24,7 @@
 		    <li>Loxo_Tusk_Some</li>
 			<li>Aggression_DeadCalm</li>
 			<li>KindInstinct</li>
-			<li>Nearsighted</li>
+			<li>Joe_ObstructedVision</li>
 			<li>MeleeDamage_Strong</li>
 			<li MayRequire="RedMattis.BigSmall.Core">BS_ToughSkin</li>
 			<li MayRequire="RedMattis.BigSmall.Core">BS_SlowAging</li>
