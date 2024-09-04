@@ -2,7 +2,7 @@
 
 
 <Patch>  
-    <Operation Class="PatchOperationalConditional">
+    <Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="CryptosleepCasket"]/label</xpath>
             <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CryptosleepCasket"]/label</xpath>
@@ -12,7 +12,7 @@
             </match>
 	</Operation>
 	
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="CryptosleepCasket"]/description</xpath>
 	        <match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CryptosleepCasket"]/description</xpath>
@@ -23,7 +23,7 @@
 	</Operation>	
 
 
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="CryptosleepCasket"]/graphicData/texPath</xpath>
 			<match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CryptosleepCasket"]/graphicData/texPath</xpath>
@@ -33,7 +33,7 @@
             </match>
 	</Operation>	
 	
-	<Operation Class="PatchOperationalConditional">
+	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="CryptosleepCasket"]/comps/li[@Class="CompProperties_EmptyStateGraphic"]/graphicData/texPath</xpath>
 			<match Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="CryptosleepCasket"]/comps/li[@Class="CompProperties_EmptyStateGraphic"]/graphicData/texPath</xpath>
