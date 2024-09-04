@@ -9,9 +9,9 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationConditional">
-	    <xpath>Defs/PawnKindDef[defName="MSSRPG_UnderDweller"/xenotypeSet/xenotypeChances/MSSRPG_Balrog</xpath>
+	    <xpath>Defs/PawnKindDef[defName="MSSRPG_UnderDweller"]/xenotypeSet/xenotypeChances/MSSRPG_Balrog</xpath>
 	    <match Class="PatchOperationRemove">
-	        <xpath>Defs/PawnKindDef[defName="MSSRPG_UnderDweller"/xenotypeSet/xenotypeChances/MSSRPG_Balrog</xpath>
+	        <xpath>Defs/PawnKindDef[defName="MSSRPG_UnderDweller]"/xenotypeSet/xenotypeChances/MSSRPG_Balrog</xpath>
 		</match>
 	</Operation>
 </Patch>
