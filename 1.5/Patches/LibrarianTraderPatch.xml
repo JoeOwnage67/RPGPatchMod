@@ -178,6 +178,6 @@
 								</li>
 							</stockGenerators>						
 					</value>                		
-                <match>           
+		</match>           
     </Operation>    
 </Patch>
