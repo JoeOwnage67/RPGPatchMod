@@ -30,7 +30,7 @@ Added:
 
     Library trader caravan now sells all Medieval Overhaul books, but will not always have them all available.
 
-    Added no-facial-animations gene to certain xenotypes where I have encountered problems.
+    Added no-facial-animations gene to certain xenotypes where they look better without it.
 
 Replaced:
 
@@ -40,5 +40,4 @@ Changed:
 
     Nerfed the amount of tanning liquor the Medieval Overhaul tanning rack uses.
     Broombug spawns less often in biomes.
-    WizardTales xenotypes will be available if "Vanilla Races Expanded - Custom Icons" is loaded. 
     Applied updated nofacialanimations gene to balrog.
