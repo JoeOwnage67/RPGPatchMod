@@ -21,7 +21,7 @@
 		</capMods>
 		<statOffsets>
 			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-		    <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+		    <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 		    <ToxicEnvironmentResistance>-0.2</ToxicEnvironmentResistance>
 		    <MiningSpeed>0.1</MiningSpeed>
 		</statOffsets>
