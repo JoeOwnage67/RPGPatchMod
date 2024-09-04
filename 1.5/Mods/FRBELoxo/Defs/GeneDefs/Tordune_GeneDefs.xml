@@ -45,12 +45,44 @@
 		</modExtensions>	
 	</GeneDef>
 
-	<GeneDef ParentName="Nearsighted">
-		<defName>Joe_ObstructedVision</defName>
-		<label>obstructed vision</label>
-		<description>The followers of Tordune wear an eyepatch as a badge of honour. This causes their vision to be obstructed. Tordune Loxodons make up for this by being handy with a blade.</description>
-		<biostatMet>-3</biostatMet>
-	</GeneDef>	
+	<GeneDef>
+	    <defName>Joe_ObstructedVision</defName>
+	    <label>obstructed vision</label>
+	    <iconPath>UI/Icons/Genes/Gene_Nearsighted</iconPath>
+	    <description>The followers of Tordune wear an eyepatch as a badge of honour. This causes their vision to be obstructed. Tordune Loxodons make up for this by being handy with a blade.</description>
+	    <addsHediff>Joe_ObstructedVision</addsHediff>
+		<!-- <hediffGivers> -->
+		   
+			<!--<HediffGiver>
+      			<hediff>Joe_ObstructedVision</hediff>
+				<always>True</always>
+    		</HediffGiver> -->
+			
+			<!--<HediffGiver_Constant>
+      			<hediff>Joe_ObstructedVision</hediff>
+    		</HediffGiver_Constant> -->
+						
+  		<!-- </hediffGivers> -->
+		<displayCategory>Miscellaneous</displayCategory>
+	    <displayOrderInCategory>50</displayOrderInCategory>	    
+	    <biostatMet>3</biostatMet>
+	    <exclusionTags>
+	      <li>ShootingAccuracy</li>
+	    </exclusionTags>
+	    <symbolPack>
+	      <prefixSymbols>
+	        <li><symbol>blind</symbol></li>
+	        <li><symbol>blur</symbol></li>
+	        <li><symbol>squint</symbol></li>
+	        <li><symbol>peek</symbol></li>
+	        <li><symbol>cross</symbol></li>
+	      </prefixSymbols>
+	      <suffixSymbols>
+	        <li><symbol>sighter</symbol></li>
+	        <li><symbol>peeker</symbol></li>
+	      </suffixSymbols>
+	    </symbolPack>
+	  </GeneDef>
 
 </Defs>
  
