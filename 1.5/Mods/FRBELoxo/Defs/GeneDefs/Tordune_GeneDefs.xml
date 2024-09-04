@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<GeneDef ParentName="GeneJawBase">
+		<defName>Joe_TorduneHead</defName>
+		<label>tordune head</label>
+		<description>Carriers of this gene have a head featuring elephant-like features, with an eyepatch over one eye. A nearly prehensile trunk offers a slight gain to manipulation, and their tough skin offers protection against blunt and sharp weapons.</description>
+	    <iconPath>UI/Genes/LoxoFace</iconPath>
+		<forcedHeadTypes>
+	    	<li>LHeadTorduneLeft</li>
+	      	<li>LHeadTorduneRight</li>
+	    </forcedHeadTypes>
+		<displayOrderInCategory>9801</displayOrderInCategory>
+		<biostatMet>2</biostatMet>
+		<capMods>
+			<li>
+		    	<capacity>Manipulation</capacity>
+		    	<postFactor>1.1</postFactor>
+		    </li>
+		</capMods>
+		<statOffsets>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+		    <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+		    <ToxicEnvironmentResistance>-0.2</ToxicEnvironmentResistance>
+		    <MiningSpeed>0.1</MiningSpeed>
+		</statOffsets>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+		    	<li>Bald</li>
+		    </tags>
+		 </hairTagFilter>
+		 <beardTagFilter>
+			<whitelist>true</whitelist>
+		    <tags>
+		    	<li>NoBeard</li>
+		    </tags>
+		</beardTagFilter>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+		    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
+		        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>
+		    </li>
+		</modExtensions>	
+	</GeneDef>
+</Defs>
+ 
+
