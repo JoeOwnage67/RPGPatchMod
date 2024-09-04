@@ -40,4 +40,4 @@ Changed:
 
     Nerfed the amount of tanning liquor the Medieval Overhaul tanning rack uses.
     Broombug spawns less often in biomes.
-    Applied updated nofacialanimations gene to balrog.
+    Made it possible to use WizardTales xenotypes, but you'd need to add a number of additional gene mods to get them to work as intended. See the loadbefore section in About.xml in Mr. Samuel Streamer's RPG Adventure Flavour Pack to see what mods you would need if you're interested.
