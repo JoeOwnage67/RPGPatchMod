@@ -49,7 +49,7 @@
 	    <defName>Joe_ObstructedVision</defName>
 	    <label>obstructed vision</label>
 	    <iconPath>UI/Icons/Genes/Gene_Nearsighted</iconPath>
-	    <description>The followers of Tordune wear an eyepatch as a badge of honour. This causes their vision to be obstructed. Tordune Loxodons make up for this by being handy with a blade.</description>	
+	    <description>The followers of Tordune wear an eyepatch as a badge of honour. This causes their vision to be obstructed to some degree. Tordune Loxodons make up for this by being handy with a blade.</description>	
 		<displayCategory>Miscellaneous</displayCategory>
 	    <displayOrderInCategory>50</displayOrderInCategory>	    
 	    <biostatMet>3</biostatMet>
