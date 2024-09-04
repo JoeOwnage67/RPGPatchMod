@@ -66,7 +66,7 @@
 										<Apparel_PsychicShockLance>0.02</Apparel_PsychicShockLance> <!-- STAFF OF PARALYSIS -->                        
 										<Apparel_PsychicInsanityLance>0.02</Apparel_PsychicInsanityLance> <!-- STAFF OF MADNESS -->
 										<Gun_DoomsdayRocket>0.01</Gun_DoomsdayRocket> <!-- STAFF OF GREATER FIREBALL -->
-										<Gun_TripleRocket>0.03</OrbitalTargeterBombardment> <!-- STAFF OF FIREBALL -->
+										<Gun_TripleRocket>0.03</Gun_TripleRocket> <!-- STAFF OF FIREBALL -->
 										<TornadoGenerator>0.04</TornadoGenerator> <!-- TORNADO SPELL SCROLL -->                            
 										<PsychicAmplifier>0.1</PsychicAmplifier> <!-- PSYLINK -->
 										<MechSerumNeurotrainer>0.05</MechSerumNeurotrainer> <!-- SKILL TOME -->
