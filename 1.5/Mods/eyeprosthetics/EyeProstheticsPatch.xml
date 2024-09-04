@@ -170,12 +170,12 @@
 				</li>
 
 				<!-- glass eye drops glass when removed -->
-				<Operation Class="PatchOperationReplace">
+				<li Class="PatchOperationReplace">
 			   	<xpath>Defs/HediffDef[defName="EPR_GlassEye"]/spawnThingOnRemoved</xpath>
 					<value>
 						<spawnThingOnRemoved>RB_Glass</spawnThingOnRemoved>
 			        </value>
-				</Operation>
+				</li>
 		
 			</operations>	
 		</match>
