@@ -19,7 +19,7 @@ Added:
 
     Compatibility for Medieval Medicines: Medieval Overhaul Edition added to cryptosleep casket patch.
 
-    Added Tordune subspecies to Loxodon xenotype if mod is loaded.
+    Added Tordune subspecies to Loxodon xenotype if mod is loaded. Adds a new head type and a new gene.
 
     Traveling Apothecary Artificer caravan added to MO Noble Houses that sells small quantities of:
         Medieval Med: MO Edition prosthetics and medicine
