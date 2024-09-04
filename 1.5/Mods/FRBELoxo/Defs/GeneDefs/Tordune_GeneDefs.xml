@@ -6,7 +6,7 @@
 		<defName>Joe_TorduneHead</defName>
 		<label>tordune head</label>
 		<description>Carriers of this gene have a head featuring elephant-like features, with an eyepatch over one eye. A nearly prehensile trunk offers a slight gain to manipulation, and their tough skin offers protection against blunt and sharp weapons.</description>
-	    <iconPath>UI/Genes/LoxoFace</iconPath>
+	    <iconPath>UI/Genes/TorduneLoxoFace</iconPath>
 		<forcedHeadTypes>
 	    	<li>LHeadTorduneLeft</li>
 	      	<li>LHeadTorduneRight</li>
