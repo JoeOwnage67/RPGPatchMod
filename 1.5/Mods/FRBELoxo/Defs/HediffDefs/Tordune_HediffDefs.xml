@@ -3,7 +3,7 @@
 	<HediffDef>
   		<defName>Joe_ObstructedVision</defName>
   		<label>Obstructed Vision</label>
-  		<description>Pawns with this hediff have their vision obstructed due to wearing an eyepatch as a badge of honour.</description>
+  		<description>The followers of Tordune wear an eyepatch as a badge of honour. This causes their vision to be obstructed. Tordune Loxodons make up for this by being handy with a blade.</description>
   		<hediffClass>Hediff_Implant</hediffClass>
   		<tendable>false</tendable>
   		<isBad>false</isBad>
