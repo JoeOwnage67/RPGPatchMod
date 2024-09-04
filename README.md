@@ -7,8 +7,8 @@ Changes have been made to 1.5 branch only.
 **My changes:**  
 
 **Removed:**    
--Medieval Overhaul defs: DankPyon_Book_AncientCodex, DankPyon_Book_IntoTheRuins, DankPyon_Book_TheBeginning. (causing errors)  
--Medieval Med: MO Edition eye patch if [CZK] Eye Prosthetics (Continued) is loaded.  
+-**Medieval Overhaul** defs: DankPyon_Book_AncientCodex, DankPyon_Book_IntoTheRuins, DankPyon_Book_TheBeginning. (causing errors)  
+-**Medieval Medicines MO Edition** eye patch if **[CZK] Eye Prosthetics (Continued)** is loaded.  
 
 **Added:**  
 -Compatibility for **[CZK] Eye Prosthetics (Continued)**:  
