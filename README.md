@@ -40,5 +40,5 @@ Changed:
 
     Nerfed the amount of tanning liquor the Medieval Overhaul tanning rack uses.
     Broombug spawns less often in biomes.
-    Made WizardTales xenotypes rely on icons mod.
+    WizardTales xenotypes will be available if "Vanilla Races Expanded - Custom Icons" is loaded. 
     Applied updated nofacialanimations gene to balrog.
