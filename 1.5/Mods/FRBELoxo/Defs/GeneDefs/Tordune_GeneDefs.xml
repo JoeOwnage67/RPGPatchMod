@@ -49,20 +49,7 @@
 	    <defName>Joe_ObstructedVision</defName>
 	    <label>obstructed vision</label>
 	    <iconPath>UI/Icons/Genes/Gene_Nearsighted</iconPath>
-	    <description>The followers of Tordune wear an eyepatch as a badge of honour. This causes their vision to be obstructed. Tordune Loxodons make up for this by being handy with a blade.</description>
-	    <addsHediff>Joe_ObstructedVision</addsHediff>
-		<!-- <hediffGivers> -->
-		   
-			<!--<HediffGiver>
-      			<hediff>Joe_ObstructedVision</hediff>
-				<always>True</always>
-    		</HediffGiver> -->
-			
-			<!--<HediffGiver_Constant>
-      			<hediff>Joe_ObstructedVision</hediff>
-    		</HediffGiver_Constant> -->
-						
-  		<!-- </hediffGivers> -->
+	    <description>The followers of Tordune wear an eyepatch as a badge of honour. This causes their vision to be obstructed. Tordune Loxodons make up for this by being handy with a blade.</description>	
 		<displayCategory>Miscellaneous</displayCategory>
 	    <displayOrderInCategory>50</displayOrderInCategory>	    
 	    <biostatMet>3</biostatMet>
@@ -82,6 +69,13 @@
 	        <li><symbol>peeker</symbol></li>
 	      </suffixSymbols>
 	    </symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+		    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
+		        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>
+				<hediffToWholeBody>Joe_ObstructedVision</hediffToWholeBody>
+		    </li>
+		</modExtensions>	
 	  </GeneDef>
 
 </Defs>
