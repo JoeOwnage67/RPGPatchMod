@@ -5,8 +5,7 @@ Changes have been made to 1.5 branch only.
 My changes:
 
 Removed:
-
-    Balrog xenotype. (causing errors)
+    
     Medieval Overhaul defs: DankPyon_Book_AncientCodex, DankPyon_Book_IntoTheRuins, DankPyon_Book_TheBeginning. (causing errors)
     Medieval Med: MO Edition eye patch if [CZK] Eye Prosthetics (Continued) is loaded.
 
@@ -41,3 +40,5 @@ Changed:
 
     Nerfed the amount of tanning liquor the Medieval Overhaul tanning rack uses.
     Broombug spawns less often in biomes.
+    Made WizardTales xenotypes rely on icons mod.
+    Applied updated nofacialanimations gene to balrog.
