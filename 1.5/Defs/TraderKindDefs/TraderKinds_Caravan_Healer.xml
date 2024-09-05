@@ -128,7 +128,28 @@
                 <tag>Drugs</tag>
             </li>
             <li Class="StockGenerator_BuyTradeTag">
+                <tag>BasicProstheses</tag>
+            </li>
+			 <li Class="StockGenerator_BuyTradeTag">
                 <tag>Prostheses</tag>
+            </li>
+			<li Class="StockGenerator_BuyTradeTag">
+                <tag>Mechanical</tag>
+            </li>
+			<li Class="StockGenerator_BuyTradeTag">
+                <tag>Ambroisen</tag>
+            </li>
+			<li Class="StockGenerator_BuySingleDef">
+                <thingDef>MedicineHerbal</thingDef>
+            </li>           
+            <li Class="StockGenerator_BuySingleDef">
+                <thingDef>Neutroamine</thingDef>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tradeTag>BodyPartsNatural</tradeTag>
+            </li>
+			<li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineUltratech</thingDef>
             </li>
 
         </stockGenerators>
