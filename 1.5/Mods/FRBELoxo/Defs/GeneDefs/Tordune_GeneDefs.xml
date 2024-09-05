@@ -45,7 +45,7 @@
 		</modExtensions>	
 	</GeneDef>
 
-	<GeneDef>
+	<GeneDef ParentName="GeneBase">
 	    <defName>Joe_ObstructedVision</defName>
 	    <label>obstructed vision</label>
 	    <iconPath>UI/Icons/Genes/Gene_Nearsighted</iconPath>
