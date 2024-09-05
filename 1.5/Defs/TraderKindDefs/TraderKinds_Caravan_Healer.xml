@@ -33,13 +33,13 @@
             </li>
 
             <!-- Medieval Meds and Prosthetics -->
-            <li Class="StockGenerator_Tag">
+            <li Class="StockGenerator_Tag" MayRequire="JoeDaly.MedMeds.MO">
                 <tradeTag>Ambroisen</tradeTag>
                 <thingDefCountRange>0~1</thingDefCountRange>
                 <countRange>0~1</countRange>
                 <price>Expensive</price>
             </li>     
-             <li Class="StockGenerator_SingleDef" MayRequire="JoeDaly.MedMeds.MO">
+            <li Class="StockGenerator_SingleDef" MayRequire="JoeDaly.MedMeds.MO">
                 <thingDef>MechanicalMedHand</thingDef>
                 <countRange>0~1</countRange>
             </li>
@@ -47,7 +47,7 @@
                 <thingDef>MechanicalMedArm</thingDef>
                 <countRange>0~1</countRange>
             </li>
-             <li Class="StockGenerator_SingleDef" MayRequire="JoeDaly.MedMeds.MO">
+            <li Class="StockGenerator_SingleDef" MayRequire="JoeDaly.MedMeds.MO">
                 <thingDef>MechanicalMedLeg</thingDef>
                 <countRange>0~1</countRange>
             </li>
@@ -55,15 +55,15 @@
                 <thingDef>MechanicalMedFoot</thingDef>
                 <countRange>0~1</countRange>
             </li>
-             <li Class="StockGenerator_SingleDef" MayRequire="JoeDaly.MedMeds.MO">
+            <li Class="StockGenerator_SingleDef" MayRequire="JoeDaly.MedMeds.MO">
                 <thingDef>IronArm</thingDef>
                 <countRange>1~2</countRange>
             </li>
-                 <li Class="StockGenerator_SingleDef" MayRequire="JoeDaly.MedMeds.MO">
+            <li Class="StockGenerator_SingleDef" MayRequire="JoeDaly.MedMeds.MO">
                 <thingDef>ProstheticHook</thingDef>
                 <countRange>1~2</countRange>
             </li>
-             <li Class="StockGenerator_SingleDef" MayRequire="JoeDaly.MedMeds.MO">
+            <li Class="StockGenerator_SingleDef" MayRequire="JoeDaly.MedMeds.MO">
                 <thingDef>WoodenToe</thingDef>
                 <countRange>2~3</countRange>
             </li>
@@ -75,12 +75,12 @@
                 <thingDef>ArtificialMedNose</thingDef>
                 <countRange>0~1</countRange>
             </li>
-             <li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef">
                 <thingDef>MedicineUltratech</thingDef>
                 <countRange>0~1</countRange>
             </li>
 
-  <!-- Medieval Overhaul -->
+  			<!-- Medieval Overhaul -->
             <li Class="StockGenerator_SingleDef" MayRequire="DankPyon.Medieval.Overhaul">
                 <thingDef>DankPyon_BattleElixir</thingDef>
                 <countRange>1~3</countRange>
@@ -89,7 +89,7 @@
                 <thingDef>DankPyon_HappyPowder</thingDef>
                 <countRange>1~3</countRange>
             </li>
-             <li Class="StockGenerator_SingleDef" MayRequire="DankPyon.Medieval.Overhaul">
+            <li Class="StockGenerator_SingleDef" MayRequire="DankPyon.Medieval.Overhaul">
                 <thingDef>DankPyon_HornetHoney</thingDef>
                 <countRange>1~3</countRange>
             </li>
@@ -97,16 +97,15 @@
                 <thingDef>DankPyon_Luhix</thingDef>
                 <countRange>1~3</countRange>
             </li>
-             <li Class="StockGenerator_SingleDef" MayRequire="DankPyon.Medieval.Overhaul">
+            <li Class="StockGenerator_SingleDef" MayRequire="DankPyon.Medieval.Overhaul">
                 <thingDef>DankPyon_Miracle</thingDef>
                 <countRange>1~3</countRange>
             </li>
-
             <li Class="StockGenerator_SingleDef" MayRequire="DankPyon.Medieval.Overhaul">
                 <thingDef>DankPyon_Paregoric</thingDef>
                 <countRange>1~3</countRange>
             </li>
-             <li Class="StockGenerator_SingleDef" MayRequire="DankPyon.Medieval.Overhaul">
+            <li Class="StockGenerator_SingleDef" MayRequire="DankPyon.Medieval.Overhaul">
                 <thingDef>DankPyon_Stardust</thingDef>
                 <countRange>1~3</countRange>
             </li>
@@ -115,7 +114,7 @@
                 <countRange>1~3</countRange>
             </li>     
 
-   <!-- Buying -->
+   			<!-- Buying -->
             <li Class="StockGenerator_BuyTradeTag">
                 <tag>BodyPartsNatural</tag>
             </li>
