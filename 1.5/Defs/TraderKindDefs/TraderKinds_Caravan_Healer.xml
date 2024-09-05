@@ -29,6 +29,10 @@
                 <thingDef>MedicineUltratech</thingDef>
                 <countRange>0~1</countRange>
             </li>
+			<li Class="StockGenerator_SingleDef">
+                <thingDef>Luciferium</thingDef>
+                <countRange>0~1</countRange>
+            </li>
 			<li Class="StockGenerator_Category">
         		<categoryDef>Drugs</categoryDef>
        			<thingDefCountRange>3~4</thingDefCountRange>
