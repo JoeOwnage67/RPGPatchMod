@@ -1,6 +1,10 @@
 **Joe's Custom Patches for RPG Adventure Flavour Pack**
 
-I tried to make a custom fork of **Mr. Samuel Streamer's RPG Adventure Flavour Pack** but I couldn't get it working, so instead I made this patch mod.  
+If you like my stuff, feel free buy me a coffee at ko-fi.com/joeownage
+
+**Description**
+
+This mod patches **Mr. Samuel Streamer's RPG Adventure Flavour Pack** to incorporate changes for my modpack. 
 
 Changes have been made to 1.5 branch only.  
 
