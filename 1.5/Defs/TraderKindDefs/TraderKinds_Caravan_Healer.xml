@@ -29,6 +29,11 @@
                 <thingDef>MedicineUltratech</thingDef>
                 <countRange>0~1</countRange>
             </li>
+			<li Class="StockGenerator_Category">
+        		<categoryDef>Drugs</categoryDef>
+       			<thingDefCountRange>3~4</thingDefCountRange>
+        		<totalPriceRange>2000~3000</totalPriceRange>
+      		</li>
 			
             <!-- Genepacks -->
             <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
