@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+		<!-- tribal eyepatch change ingredients -->
+    	<Operation Class="PatchOperationReplace">
+			   	<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/ingredients</xpath>
+					<value>
+						<ingredients>
+							<li>
+								<filter>
+									<categories>
+										<li>Leathers</li>
+			        				</categories>    
+			                    </filter>
+			                    <count>5</count>
+			                </li>
+			            </ingredients>
+			        </value>
+		</Operation>				
+		
+		<Operation Class="PatchOperationConditional">
+		<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/fixedIngredientFilter/categories</xpath>				
+			<match Class="PatchOperationReplace">
+		       	<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/fixedIngredientFilter/categories</xpath>
+					<value>                   	
+						<li>Leathers</li>
+		            </value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+		       	<xpath>Defs/RecipeDef[defName="EPR_FitTribalEyepatch"]/fixedIngredientFilter/categories</xpath>
+					<value>                   	
+						<li>Leathers</li>
+		            </value>
+			</nomatch>
+		</Operation>
+</Patch>
