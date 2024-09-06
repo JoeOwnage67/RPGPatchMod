@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+	<!-- loxodon -->
+	<Operation Class="PatchOperationConditional">
+	<xpath>Defs/XenotypeDef[defName="SAB_Loxodon"]/genes</xpath>
+       	<match Class="PatchOperationAdd">
+        <xpath>Defs/XenotypeDef[defName="SAB_Loxodon"]/genes</xpath>
+    	  	<value>
+				<li>BS_ToughSkin</li>
+				<li>BS_SlowAging</li>
+				<li>Aggression_DeadCalm</li>
+				<li>KindInstinct</li>
+        	</value>   
+		</match>
+	</Operation>
+</Patch>

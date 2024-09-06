@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <Joe_TorduneLoxo>0.02</Joe_TorduneLoxo>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FactionDef[defName="TribeCivil" or defName="TribeRough" or defName="TribeSavage"]/xenotypeSet</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[defName="TribeCivil" or defName="TribeRough" or defName="TribeSavage"]</xpath>
+      <value>
+        <xenotypeSet>
+          <xenotypeChances>
+          </xenotypeChances>
+        </xenotypeSet>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName="TribeCivil" or defName="TribeRough" or defName="TribeSavage"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <Joe_TorduneLoxo>0.02</Joe_TorduneLoxo>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <Joe_TorduneLoxo>0.02</Joe_TorduneLoxo>
+    </value>
+  </Operation>
+
+</Patch>

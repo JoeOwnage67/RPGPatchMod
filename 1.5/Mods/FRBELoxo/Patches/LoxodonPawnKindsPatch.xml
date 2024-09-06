@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+	<!-- Loxodons don't wear headgear (it doesn't fit) -->
+	<Operation Class="PatchOperationAdd">
+	<xpath>Defs/PawnKindDef[@Name="FR_LoxoTribePawnBase"]</xpath>
+		<value>
+			<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>	
+	    </value>   
+	</Operation>
+
+	<!-- Colonist loxodons can be tordune -->
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/PawnKindDef[defName="FRBE_ColonistLoxodon"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<xenotypeChances>
+				<SAB_Loxodon>0.98</SAB_Loxodon>
+				<Joe_TorduneLoxo>0.02</Joe_TorduneLoxo>
+			</xenotypeChances>
+	    </value>   
+	</Operation>
+
+	<!-- loxo tribe loxodons can be tordune -->
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/PawnKindDef[@Name="FR_LoxoTribePawnBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<xenotypeChances>
+				<SAB_Loxodon>0.98</SAB_Loxodon>
+				<Joe_TorduneLoxo>0.02</Joe_TorduneLoxo>
+			</xenotypeChances>
+	    </value>   
+	</Operation>
+	
+</Patch>
