@@ -18,7 +18,7 @@ Changes are applied to 1.5 branch only.
 -**Medieval Medicines MO Edition** eye patch if **[CZK] Eye Prosthetics (Continued)** is loaded.  
 
 **Added:**  
--Compatibility for **Grimoires** mod to spawn Grimoires in lootable bookshelves in Medieval Overhaul hideouts and ruins.  
+-Compatibility for **Grimoires** mod to spawn grimoires in lootable bookshelves in Medieval Overhaul hideouts and ruins.  
 -Compatibility for **[CZK] Eye Prosthetics (Continued)**:  
   	-changed research to align with Medieval Overhaul.  
 	-made tribal eyepatch recipe use any leather instead of just light leather.  
