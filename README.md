@@ -38,7 +38,7 @@ Changes have been made to 1.5 branch only.
 
 -Library trader caravan now sells all **Medieval Overhaul** books, but will not always have them all available. (except for intermediate cooking, I couldn't add that one for some reason)  
 
--Added no-facial-animations gene to certain xenotypes where they look better without it. I will add more as I notice them in my game.  
+-Added no-facial-animations gene to certain modded xenotypes where they look better without it. I will add more as I notice them in my game.  
 
 **Replaced:**  
 -Oken's **Medieval Quest Rewards** with Botch Job's (uses patched base game defs).  
