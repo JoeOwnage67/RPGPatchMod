@@ -9,7 +9,7 @@ This mod patches **Mr. Samuel Streamer's RPG Adventure Flavour Pack** (1.5 versi
 Joe's 1.5 Playtested Medieval Fantasy Modlist and Configs  
 https://steamcommunity.com/sharedfiles/filedetails/?id=3319070383
 
-Changes have been made to 1.5 branch only.  
+Changes are applied to 1.5 branch only.  
 
 **My changes:**  
 
