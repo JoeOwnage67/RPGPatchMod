@@ -4,7 +4,7 @@ If you like my stuff, feel free buy me a coffee at ko-fi.com/joeownage
 
 **Description**
 
-This mod patches **Mr. Samuel Streamer's RPG Adventure Flavour Pack** to incorporate changes for my modpack:
+This mod patches **Mr. Samuel Streamer's RPG Adventure Flavour Pack** (1.5 version available here: https://github.com/MrSamuelStreamer/RPGFantasyFlavourMod) to incorporate changes for my modpack:
 
 Joe's 1.5 Playtested Medieval Fantasy Modlist and Configs  
 https://steamcommunity.com/sharedfiles/filedetails/?id=3319070383
