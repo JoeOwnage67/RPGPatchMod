@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+	<XenotypeDef>
+  		<defName>Joe_TorduneLoxo</defName>
+  		<label>tordune loxodon</label>
+  		<description>A rare subspecies of Loxodon, distinguished by their eyepatches worn as badges of honor, in homage to the legendary hero Tordune, who inspired a devoted following. Loxodons were a humanoid species of Elephants from Ravnica, who found their way to Faerûn. Loxodons are often an oasis of calm in Ravnica. They hum or chant in sonorous tones and move slowly or sit in perfect stillness. As they say, "There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man."</description>
+  		<descriptionShort> A rare subspecies of Loxodon, distinguished by their eyepatches worn as badges of honor, in homage to the legendary hero Tordune, who inspired a devoted following.</descriptionShort>
+  		<iconPath>UI/Genes/TorduneLoxoFace</iconPath>
+  		<inheritable>true</inheritable>
+  		<genes>
+		    <li>PsychicAbility_Enhanced</li>
+		    <li>Outland_DeceleratedPregnancy</li>
+		    <li>JoeGene_TorduneHead</li>
+		    <li>Body_Hulk</li>
+		    <li>Outland_Skin_Sage</li>
+		    <li>Skin_InkBlack</li>
+		    <li>Skin_SlateGray</li>
+		    <li>Outland_Skin_Marble</li>
+		    <li>Outland_HoovedFeet</li>
+		    <li>Outland_Voice_Beastly</li>
+		    <li>Outland_BodyScale_Massive</li>
+		    <li>Loxo_Tusk_None</li>
+		    <li>Loxo_Tusk_Some</li>
+			<li>Aggression_DeadCalm</li>
+			<li>KindInstinct</li>
+			<li>JoeGene_ObstructedVision</li>
+			<li>MeleeDamage_Strong</li>
+			<li MayRequire="RedMattis.BigSmall.Core">BS_ToughSkin</li>
+			<li MayRequire="RedMattis.BigSmall.Core">BS_SlowAging</li>
+			<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+		</genes>
+</XenotypeDef>
+</Defs>

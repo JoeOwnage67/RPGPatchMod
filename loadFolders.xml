@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>  
+  <v1.5>
+    <li>/</li>
+    <li>1.5</li>    
+    <li IfModActive="DankPyon.Medieval.Overhaul">1.5/Mods/MedievalOverhaul</li>    
+    <li IfModActive="Sabrael.FRBELoxo">1.5/Mods/FRBELoxo</li>	
+    <li IfModActive="JoeDaly.MedMeds.MO">1.5/Mods/MedMeds</li>	
+  </v1.5>
+</loadFolders>
