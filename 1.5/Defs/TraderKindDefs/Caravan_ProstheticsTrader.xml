@@ -3,7 +3,7 @@
 <Defs>
     <TraderKindDef>
         <defName>Caravan_ProstheticsTrader</defName>
-        <label>wayfaring apothecary-artificer</label>
+        <label>Wayfaring Apothecary-Artificer</label>
         <stockGenerators>
 
             <!-- base game -->
@@ -19,13 +19,7 @@
                 <thingDef>Neutroamine</thingDef>
                 <countRange>2~5</countRange>
             </li>
-            <!--<li Class="StockGenerator_Tag">
-                <tradeTag>BodyPartsNatural</tradeTag>
-                <thingDefCountRange>0~1</thingDefCountRange>
-                <countRange>0~1</countRange>
-                <price>Expensive</price>
-            </li>-->
-			<li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef">
                 <thingDef>MedicineUltratech</thingDef>
                 <countRange>0~1</countRange>
             </li>
@@ -149,10 +143,7 @@
             <li Class="StockGenerator_BuySingleDef">
                 <thingDef>Neutroamine</thingDef>
             </li>
-            <!--<li Class="StockGenerator_BuyTradeTag">
-                <tradeTag>BodyPartsNatural</tradeTag>
-            </li>-->
-			<li Class="StockGenerator_SingleDef">
+            <li Class="StockGenerator_SingleDef">
                 <thingDef>MedicineUltratech</thingDef>
             </li>
 
