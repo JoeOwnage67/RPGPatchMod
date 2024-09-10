@@ -82,6 +82,18 @@
                 <thingDef>ArtificialMedNose</thingDef>
                 <countRange>0~1</countRange>
             </li>
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_SingleDef">
+                <thingDef>MechanicalMedHand</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_SingleDef">
+                <thingDef>LesserHealingPotion</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_SingleDef">
+                <thingDef>MinorHealingPotion</thingDef>
+                <countRange>0~1</countRange>
+            </li>
           
 
   			<!-- Medieval Overhaul -->
