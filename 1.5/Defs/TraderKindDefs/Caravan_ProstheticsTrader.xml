@@ -133,10 +133,8 @@
                 <thingDef>DankPyon_Amber</thingDef>
                 <countRange>1-15</countRange>
             </li>   
-   			<!-- Buying -->
-            <li Class="StockGenerator_BuyTradeTag">
-                <tag>BodyPartsNatural</tag>
-            </li>
+			
+   			<!-- Buying -->          
             <li Class="StockGenerator_BuyTradeTag">
                 <tag>Drugs</tag>
             </li>
