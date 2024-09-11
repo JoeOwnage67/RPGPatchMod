@@ -22,30 +22,30 @@
 								</li>
 								    <li Class="StockGenerator_SingleDef">
 									<thingDef>TextBook</thingDef>
-									<countRange>1~2</countRange>
+									<countRange>0~2</countRange>
 								</li>
 
 								<li Class="StockGenerator_SingleDef">
 									<thingDef>Schematic</thingDef>
-									<countRange>1~1</countRange>
+									<countRange>0~1</countRange>
 								</li>
 								<li Class="StockGenerator_SingleDef">
 									<thingDef>Novel</thingDef>
-									<countRange>1~1</countRange>
+									<countRange>0~1</countRange>
 								</li>
 								
 								<li MayRequire="Ludeon.RimWorld.Anomaly" Class="StockGenerator_SingleDef">
 									<thingDef>Tome</thingDef>
-									<countRange>1~1</countRange>
+									<countRange>0~1</countRange>
 								</li>
 								<li Class="StockGenerator_Tag">
 									<tradeTag>Techprint</tradeTag>
 									<thingDefCountRange>6~10</thingDefCountRange>
-									<countRange>1~3</countRange>
+									<countRange>0~3</countRange>
 								</li>
 								<li MayRequire="GwinnBleidd.ResearchTweaks" Class="StockGenerator_SingleDef">
 									<thingDef>TechnologyBlueprintNeolithic</thingDef>
-									<countRange>1~3</countRange>
+									<countRange>0~3</countRange>
 								</li>
 								<li MayRequire="GwinnBleidd.ResearchTweaks" Class="StockGenerator_SingleDef">
 									<thingDef>TechnologyBlueprintMedieval</thingDef>
@@ -53,10 +53,10 @@
 								</li>
 								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
 									<thingDef>DankPyon_Book</thingDef>
-									<countRange>1~3</countRange>
+									<countRange>0~3</countRange>
 								</li>          
 								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_MultiDef">
-									<countRange>1~1</countRange>
+									<countRange>0~1</countRange>
 									<thingDefs>
 										<li>MSSRPG_Book_LustySauridMaid_First</li>
 										<li>MSSRPG_Book_LustySauridMaid_Second</li>
@@ -152,7 +152,7 @@
 								</li>
 								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
 									<thingDef>DankPyon_Book_Steel</thingDef>
-									<countRange>0~1</countRange>
+									<countRange>0~2</countRange>
 								</li>
 								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
 									<thingDef>DankPyon_Book_Gunpowder</thingDef>
