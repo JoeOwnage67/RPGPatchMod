@@ -36,7 +36,8 @@
 								<li>Aggression_DeadCalm</li>
 								<li>KindInstinct</li>
 								<li>BS_ToughSkin</li>
-								<li>BS_SlowAging</li>								
+								<li>BS_SlowAging</li>
+								<li>JoeGene_NoHeadGear</li>
 								<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>								
 							</genes>
 						</value>   
@@ -482,6 +483,39 @@
 						</value>   
 					</match>
 				</li>
+
+					<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Alpha Genes</li>
+					</mods>
+					<match Class="PatchOperationReplace">
+					<xpath>Defs/XenotypeDef[defName="AG_Taukai"]/genes</xpath>
+						<value>
+								<genes>
+									<li>AG_CancerousBody</li>
+									<li>AG_CancerousFace</li>
+									<li>AG_Teratogenesis</li>
+									<li>AG_HealingTouch</li>
+									<li>AG_TeratogenicManipulation</li>
+									<li>AG_TeratogenicSwiftness</li>
+									<li>AG_TeratogenicStamina</li>
+									<li>AG_TeratogenicBurst</li>
+									<li>AG_SurvivalInstinct_Low</li>
+									<li>AG_RegenerationMinor</li>
+									<li>AG_Filthy</li>
+									<li>AG_FrailSkin</li>
+									<li>ToxicEnvironmentResistance_Total</li>
+									<li>AG_Painless</li>
+									<li>AG_Beauty_VeryVeryUgly</li>
+									<li>AptitudePoor_Artistic</li>
+									<li>AptitudePoor_Social</li>
+									<li>AptitudeTerrible_Medicine</li>
+									<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+								</genes>			
+						</value>   
+					</match>
+				</li>
+				
 			</operations>
 		</match>
 	</Operation>	
