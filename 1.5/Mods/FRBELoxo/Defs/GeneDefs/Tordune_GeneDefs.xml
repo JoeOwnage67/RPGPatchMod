@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- tordune head gene -->
+	<GeneDef ParentName="GeneJawBase">
+		<defName>JoeGene_TorduneHead</defName>
+		<label>tordune head</label>
+		<description>Carriers of this gene have a head featuring elephant-like features, with an eyepatch over one eye. A nearly prehensile trunk offers a slight gain to manipulation, and their tough skin offers protection against blunt and sharp weapons.</description>
+	    <iconPath>UI/Genes/TorduneLoxoFace</iconPath>
+		<forcedHeadTypes>
+	    	<li>LHeadTorduneLeft</li>
+	      	<li>LHeadTorduneRight</li>
+	    </forcedHeadTypes>
+		<displayOrderInCategory>9802</displayOrderInCategory>
+		<biostatMet>2</biostatMet>
+		<capMods>
+			<li>
+		    	<capacity>Manipulation</capacity>
+		    	<postFactor>1.1</postFactor>
+		    </li>
+		</capMods>
+		<statOffsets>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+		    <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+		    <ToxicEnvironmentResistance>-0.2</ToxicEnvironmentResistance>
+		    <MiningSpeed>0.1</MiningSpeed>
+		</statOffsets>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+		    	<li>Bald</li>
+		    </tags>
+		 </hairTagFilter>
+		 <beardTagFilter>
+			<whitelist>true</whitelist>
+		    <tags>
+		    	<li>NoBeard</li>
+		    </tags>
+		</beardTagFilter>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+		    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
+		        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>
+		    </li>
+		</modExtensions>	
+	</GeneDef>
+
+	<!-- Obstructed Vision gene -->
+	<GeneDef>
+	    <defName>JoeGene_ObstructedVision</defName>
+	    <label>obstructed vision</label>
+	    <iconPath>UI/Icons/Genes/Gene_Nearsighted</iconPath>
+	    <description>The followers of Tordune wear an eyepatch as a badge of honour. This causes their vision to be obstructed to some degree. Tordune Loxodons make up for this by being handy with a blade.</description>	
+		<displayCategory>Miscellaneous</displayCategory>
+	    <displayOrderInCategory>50</displayOrderInCategory>	    
+	    <biostatMet>3</biostatMet>
+	    <exclusionTags>
+	      <li>ShootingAccuracy</li>
+	    </exclusionTags>
+	    <symbolPack>
+	      <prefixSymbols>
+	        <li><symbol>blind</symbol></li>
+	        <li><symbol>blur</symbol></li>
+	        <li><symbol>squint</symbol></li>
+	        <li><symbol>peek</symbol></li>
+	        <li><symbol>cross</symbol></li>
+	      </prefixSymbols>
+	      <suffixSymbols>
+	        <li><symbol>sighter</symbol></li>
+	        <li><symbol>peeker</symbol></li>
+	      </suffixSymbols>
+	    </symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+		    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
+		        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>
+				<hediffToWholeBody>JoeHediff_ObstructedVision</hediffToWholeBody>
+		    </li>
+		</modExtensions>	
+	  </GeneDef>
+	  
+	  	<!-- no headgear gene -->
+	<GeneDef>
+	    <defName>JoeGene_NoHeadGear</defName>
+	    <label>no headgear</label>
+	    <iconPath>UI/Genes/NoHeadGear</iconPath>
+	    <description>Pawns with this gene are biologically incompatible with wearing headgear and will refuse to wear any.</description>	
+		<displayCategory>Miscellaneous</displayCategory>
+	    <displayOrderInCategory>50</displayOrderInCategory>	    
+	    <biostatMet>0</biostatMet>
+	    <apparelDisallowedTags>
+	      <li>Headgear</li>
+	    </apparelDisallowedTags>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+		    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
+		        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>
+		    </li>
+		</modExtensions>	
+	  </GeneDef>
+
+</Defs>
+ 
+ 

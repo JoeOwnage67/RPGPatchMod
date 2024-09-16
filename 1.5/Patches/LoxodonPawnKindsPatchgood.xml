@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>FRBE Addon - Loxo</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>	
+	
+				<!-- Loxodons don't wear headgear (it doesn't fit)
+				<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[@Name="FR_LoxoTribePawnBase"]</xpath>
+					<value>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>	
+					</value>   
+				</li> -->
+
+				<!-- Colonist loxodons can be tordune -->
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="FRBE_ColonistLoxodon"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<xenotypeChances>
+							<SAB_Loxodon>0.98</SAB_Loxodon>
+							<Joe_TorduneLoxo>0.02</Joe_TorduneLoxo>
+						</xenotypeChances>
+					</value>   
+				</li>
+
+				<!-- loxo tribe loxodons can be tordune -->
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[@Name="FR_LoxoTribePawnBase"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<xenotypeChances>
+							<SAB_Loxodon>0.98</SAB_Loxodon>
+							<Joe_TorduneLoxo>0.02</Joe_TorduneLoxo>
+						</xenotypeChances>
+					</value>   
+				</li>
+			</operations>
+		</match>
+	</Operation>	
+</Patch>
