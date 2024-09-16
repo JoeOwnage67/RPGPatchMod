@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReBuild: Doors and Corners</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="EPR_InstallGlassEye"]/ingredients</xpath>
+			<value>
+			    <ingredients>
+			        <li>
+			            <filter><categories><li>Medicine</li></categories></filter>
+			            <count>1</count>
+			        </li>
+					<li>
+			            <filter><thingDefs><li>RB_Glass</li></thingDefs></filter>
+			            <count>2</count>
+			        </li>
+			    </ingredients>
+			</value>	
+		</match>		
+	</Operation>
+				
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="EPR_InstallGlassEye"]</xpath>
+			<value>
+                <fixedIngredientFilter>
+					<thingDefs><li>RB_Glass</li></thingDefs>
+                </fixedIngredientFilter>
+			</value>
+	</Operation>
+
+	<!-- glass eye drops glass when removed -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName="EPR_GlassEye"]/spawnThingOnRemoved</xpath>
+		<value>
+			<spawnThingOnRemoved>RB_Glass</spawnThingOnRemoved>
+		</value>		
+	</Operation>		
+</Patch>
