@@ -29,7 +29,6 @@
 			<li>KindInstinct</li>
 			<li>JoeGene_ObstructedVision</li>
 			<li>MeleeDamage_Strong</li>
-			<li>JoeGene_NoHeadGear</li>
 			<li MayRequire="RedMattis.BigSmall.Core">BS_ToughSkin</li>
 			<li MayRequire="RedMattis.BigSmall.Core">BS_SlowAging</li>
 			<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
