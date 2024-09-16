@@ -78,26 +78,6 @@
 		    </li>
 		</modExtensions>	
 	  </GeneDef>
-	  
-	  	<!-- no headgear gene -->
-	<GeneDef>
-	    <defName>JoeGene_NoHeadGear</defName>
-	    <label>no headgear</label>
-	    <iconPath>UI/Genes/NoHeadGear</iconPath>
-	    <description>Pawns with this gene are biologically incompatible with wearing headgear and will refuse to wear any.</description>	
-		<displayCategory>Miscellaneous</displayCategory>
-	    <displayOrderInCategory>50</displayOrderInCategory>	    
-	    <biostatMet>0</biostatMet>
-	    <apparelDisallowedTags>
-	      <li>Headgear</li>
-	    </apparelDisallowedTags>
-		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-		    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
-		        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>
-		    </li>
-		</modExtensions>	
-	  </GeneDef>
 
 </Defs>
  
