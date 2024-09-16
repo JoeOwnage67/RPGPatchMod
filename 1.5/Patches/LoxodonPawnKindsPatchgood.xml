@@ -8,13 +8,13 @@
 		<match Class="PatchOperationSequence">
 			<operations>	
 	
-				<!-- Loxodons don't wear headgear (it doesn't fit) -->
+				<!-- Loxodons don't wear headgear (it doesn't fit)
 				<li Class="PatchOperationAdd">
 				<xpath>Defs/PawnKindDef[@Name="FR_LoxoTribePawnBase"]</xpath>
 					<value>
 						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>	
 					</value>   
-				</li>
+				</li> -->
 
 				<!-- Colonist loxodons can be tordune -->
 				<li Class="PatchOperationReplace">
