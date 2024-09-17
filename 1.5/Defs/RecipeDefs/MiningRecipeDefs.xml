@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+		<!-- add mithril to mine -->
+	<RecipeDef MayRequire="det.sbdelights" ParentName="DankPyon_MineShaftBase">
+		<defName>DankPyon_MakeOre_Mithril</defName>
+		<description>Mine deep down underground to obtain raw mithril.</description>
+		<workAmount>6000</workAmount>
+		<label>mine raw mithril</label>
+		<jobString>Mining raw mithril.</jobString>
+		<products>
+			<DankPyon_PlasteelOre>1</DankPyon_PlasteelOre>
+		</products>
+	</RecipeDef>
+
+	
+</Defs>
+
+
+
