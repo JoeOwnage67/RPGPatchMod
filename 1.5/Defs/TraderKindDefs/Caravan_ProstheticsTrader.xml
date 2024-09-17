@@ -131,8 +131,15 @@
             </li>   
 			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
                 <thingDef>DankPyon_Amber</thingDef>
-                <countRange>1-15</countRange>
+                <countRange>1~15</countRange>
             </li>   
+			<li MayRequire="Neronix17.ForgottenRealms" Class="StockGenerator_SingleDef">
+                <thingDef>Forgotten_WarforgedHeartstone</thingDef>
+                <countRange>0~1</countRange>
+            </li>  
+			
+			
+			
 			
    			<!-- Buying -->          
             <li Class="StockGenerator_BuyTradeTag">
