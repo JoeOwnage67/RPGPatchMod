@@ -7,4 +7,12 @@
 			<li>MineableOricalcum</li>
 		</value>
 	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Uranium"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Resources/UraniumIngot</texPath>
+		</value>
+	</Operation>
+
 </Patch>
