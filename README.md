@@ -42,7 +42,7 @@ Changes are applied to 1.5 branch only.
 
 -Added ability to mine raw mithril (plasteel) at **Medieval Overhaul** mine.  
   
--Added ability to mine raw oricalcum (uranium) at **Medieval Overhaul** mine.  
+-Added ability to mine raw oricalcum (uranium) at **Medieval Overhaul** mine and refine it into ingots at the furnace.  
 
 **Replaced:**  
 -Oken's **Medieval Quest Rewards** with Botch Job's (uses patched base game defs).  
