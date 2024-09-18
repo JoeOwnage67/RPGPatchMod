@@ -55,11 +55,11 @@ Changes are applied to 1.5 branch only.
   	-Made Loxodon xenotype not spawn in premade factions (for now, will re-add with pawnkinds so they don't spawn with headgear).  
 	-Made it possible to use WizardTales xenotypes, but you'd need to add a number of additional gene mods, which are not in my modpack, to get them to work as intended:  
    
- 		1.Turnovus' "Integrated Genes"  
-   		2.GwenBlanketSpecter's "Meditation Traits and Genes"  
-     		3.Danzen's "Vanilla Psycast Expanded - Biotech Integration"  
-   		4.LTS's "Glowing eyes genes"  
-	 	5.6262soudai's "VPE-Biotech Integration for Alpha Animals and More!" 
+ 	1.Turnovus' "Integrated Genes"  
+   	2.GwenBlanketSpecter's "Meditation Traits and Genes"  
+     	3.Danzen's "Vanilla Psycast Expanded - Biotech Integration"  
+   	4.LTS's "Glowing eyes genes"  
+	5.6262soudai's "VPE-Biotech Integration for Alpha Animals and More!" 
      
 
    		
