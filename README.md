@@ -50,15 +50,18 @@ Changes are applied to 1.5 branch only.
 **Changed:**  
 	-Nerfed the amount of tanning liquor the Medieval Overhaul tanning rack uses.  
 	-Broombug spawns _less often_ in biomes.  
+ 	-Changed research for **Stargates!** (arcane portals) to Medieval tech level.  
+  	-Made Loxodon pawnkinds not wear headgear (doesn't fit).  
+  	-Made Loxodon xenotype not spawn in premade factions (for now, will re-add with pawnkinds so they don't spawn with headgear).  
 	-Made it possible to use WizardTales xenotypes, but you'd need to add a number of additional gene mods, which are not in my modpack, to get them to work as intended:  
+   
  		1.Turnovus' _Integrated Genes_  
    		2.GwenBlanketSpecter's _Meditation Traits and Genes_  
 	 	3.Danzen's _Vanilla Psycast Expanded - Biotech Integration_  
    		4.LTS's _Glowing eyes genes_  
-	 	5.6262soudai's _VPE-Biotech Integration for Alpha Animals and More!_  
-   	-Changed research for **Stargates!** (arcane portals) to Medieval tech level.  
-        -Made Loxodon pawnkinds not wear headgear (doesn't fit).  
-	-Made Loxodon xenotype not spawn in premade factions (for now, will re-add with pawnkinds so they don't spawn with headgear).  
+	 	5.6262soudai's _VPE-Biotech Integration for Alpha Animals and More!_ 
+     
+
    		
 	 
 
