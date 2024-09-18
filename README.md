@@ -40,6 +40,8 @@ Changes are applied to 1.5 branch only.
 
 -Added no-facial-animations gene to certain modded xenotypes where they look better without it. I will add more as I notice them in my game.  
 
+-Added ability to mine raw mithril (plasteel) at **Medieval Overhaul** mine.
+
 **Replaced:**  
 -Oken's **Medieval Quest Rewards** with Botch Job's (uses patched base game defs).  
 
@@ -52,6 +54,9 @@ Changes are applied to 1.5 branch only.
 	 	-Danzen's _Vanilla Psycast Expanded - Biotech Integration_  
    		-LTS's _Glowing eyes genes_  
 	 	-6262soudai's _VPE-Biotech Integration for Alpha Animals and More!_  
+   	-Changed research for **Stargates!** (arcane portals) to Medieval tech level.  
+        -Made Loxodon pawnkinds not wear headgear (doesn't fit).  
+	-Made Loxodon xenotype not spawn in premade factions (for now, will re-add with pawnkinds so they don't spawn with headgear).  
    		
 	 
 
