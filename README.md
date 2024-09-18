@@ -33,7 +33,8 @@ Changes are applied to 1.5 branch only.
    	-Medieval Med: MO Edition prosthetics and medicine  
  	-Medieval Overhaul Drugs  
  	-Neutroamine  
- 	-Occasional natural body part  
+ 	-Occasional natural body part
+  	-Heartstone from **Asimov** for building Warforged from **Forgotten Realms**.
  	-more  
 
 -Library trader caravan now sells all **Medieval Overhaul** books, but will not always have them all available. (except for intermediate cooking, I couldn't add that one for some reason)  
@@ -41,6 +42,7 @@ Changes are applied to 1.5 branch only.
 -Added no-facial-animations gene to certain modded xenotypes where they look better without it. I will add more as I notice them in my game.  
 
 -Added ability to mine raw mithril (plasteel) at **Medieval Overhaul** mine.
+-Added ability to mine raw oricalcum (uranium) at **Medieval Overhaul** mine.
 
 **Replaced:**  
 -Oken's **Medieval Quest Rewards** with Botch Job's (uses patched base game defs).  
