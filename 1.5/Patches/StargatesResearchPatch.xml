@@ -58,7 +58,7 @@
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/baseCost</xpath>
 					<value>		
-						<baseCost>6000</baseCost>
+						<baseCost>7000</baseCost>
 					</value>
 				</li>
 				<li Class="PatchOperationRemove">
