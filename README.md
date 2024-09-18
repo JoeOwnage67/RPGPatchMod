@@ -42,6 +42,7 @@ Changes are applied to 1.5 branch only.
 -Added no-facial-animations gene to certain modded xenotypes where they look better without it. I will add more as I notice them in my game.  
 
 -Added ability to mine raw mithril (plasteel) at **Medieval Overhaul** mine.  
+  
 -Added ability to mine raw oricalcum (uranium) at **Medieval Overhaul** mine.  
 
 **Replaced:**  
