@@ -3,7 +3,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>CCYT.StargatesMod</li>
+			<li>Stargates!</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
