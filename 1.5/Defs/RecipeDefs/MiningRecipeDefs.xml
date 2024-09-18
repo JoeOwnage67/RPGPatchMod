@@ -2,7 +2,7 @@
 <Defs>
 	
 		<!-- add mithril to mine -->
-	<RecipeDef MayRequire="det.sbdelights" ParentName="DankPyon_MineShaftBase">
+	<RecipeDef MayRequire="DankPyon.Medieval.Overhaul" ParentName="DankPyon_MineShaftBase">
 		<defName>DankPyon_MakeOre_Mithril</defName>
 		<description>Mine deep down underground to obtain raw mithril.</description>
 		<workAmount>6000</workAmount>
@@ -10,6 +10,17 @@
 		<jobString>Mining raw mithril.</jobString>
 		<products>
 			<DankPyon_PlasteelOre>1</DankPyon_PlasteelOre>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef MayRequire="DankPyon.Medieval.Overhaul" ParentName="DankPyon_MineShaftBase">
+		<defName>DankPyon_MakeOre_Uranium</defName>
+		<description>Mine deep down underground to obtain raw oricalcum.</description>
+		<workAmount>6000</workAmount>
+		<label>mine raw oricalcum</label>
+		<jobString>Mining raw oricalcum.</jobString>
+		<products>
+			<DankPyon_UraniumOre>1</DankPyon_UraniumOre>
 		</products>
 	</RecipeDef>
 
