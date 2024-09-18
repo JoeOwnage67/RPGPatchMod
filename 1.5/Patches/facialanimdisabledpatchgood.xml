@@ -482,6 +482,73 @@
 						</value>   
 					</match>
 				</li>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Alpha Genes</li>
+					</mods>
+					<match Class="PatchOperationReplace">
+					<xpath>Defs/XenotypeDef[defName="AG_Taukai"]/genes</xpath>
+						<value>
+								<genes>
+									<li>AG_CancerousBody</li>
+									<li>AG_CancerousFace</li>
+									<li>AG_Teratogenesis</li>
+									<li>AG_HealingTouch</li>
+									<li>AG_TeratogenicManipulation</li>
+									<li>AG_TeratogenicSwiftness</li>
+									<li>AG_TeratogenicStamina</li>
+									<li>AG_TeratogenicBurst</li>
+									<li>AG_SurvivalInstinct_Low</li>
+									<li>AG_RegenerationMinor</li>
+									<li>AG_Filthy</li>
+									<li>AG_FrailSkin</li>
+									<li>ToxicEnvironmentResistance_Total</li>
+									<li>AG_Painless</li>
+									<li>AG_Beauty_VeryVeryUgly</li>
+									<li>AptitudePoor_Artistic</li>
+									<li>AptitudePoor_Social</li>
+									<li>AptitudeTerrible_Medicine</li>
+									<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+								</genes>							
+						</value>   
+					</match>
+				</li>
+
+				<!-- Forgotten Realms -->
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Forgotten Realms - Biotech Edition</li>
+					</mods>
+					<match Class="PatchOperationReplace">
+					<xpath>Defs/XenotypeDef[defName="Forgotten_Tabaxi"]/genes</xpath>
+						<value>
+								<genes>
+									<li>Hair_Grayless</li>
+									<li>DarkVision</li>
+									<li>Hair_BaldOnly</li>
+									<li>Beard_NoBeardOnly</li>
+									<li>Outland_Ears_Flick</li>
+									<li>Outland_Ears_Woosh</li>
+									<li>Outland_HairColor_BrightOrange</li>
+									<li>Outland_HairColor_DarkRed</li>
+									<li>Hair_SandyBlonde</li>
+									<li>Hair_LightOrange</li>
+									<li>Hair_DarkBrown</li>
+									<li>Hair_SnowWhite</li>
+									<li>Outland_Furbody</li>
+									<li>Outland_FelineHead</li>
+									<li>Tail_Smooth</li>
+									<li>MoveSpeed_VeryQuick</li>
+									<li>Delicate</li>
+									<li>Outland_Pos4Metabolism</li>
+									<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+								</genes>							
+						</value>   
+					</match>
+				</li>
+
+				
 			</operations>
 		</match>
 	</Operation>	
