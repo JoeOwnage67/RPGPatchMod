@@ -33,7 +33,7 @@
 	</ThingDef>
 	
   	<ThingDef MayRequire="DankPyon.Medieval.Overhaul" ParentName="RockBase">
-    <defName>MineableOricalcum</defName>
+    	<defName>MineableOricalcum</defName>
 	    <label>compacted oricalcum</label>
 	    <description>Ancient compacted rubble rich in oricalcum.</description>
 	    <graphicData>
