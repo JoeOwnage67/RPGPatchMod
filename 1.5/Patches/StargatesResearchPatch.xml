@@ -42,27 +42,27 @@
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/prerequisites</xpath>
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/prerequisites</xpath>
 					<value>		
 						<prerequisites>
-							<li>SStargateMod_StargateMakingResearch</li>
+							<li>StargateMod_StargateMakingResearch</li>
 						</prerequisites>
 					</value>
 				</li>
 				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
-					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/requiredResearchBuilding</xpath>
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/requiredResearchBuilding</xpath>
 					<value>		
 						<requiredResearchBuilding>DankPyon_AdvancedResearchBench</requiredResearchBuilding>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/baseCost</xpath>
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/baseCost</xpath>
 					<value>		
 						<baseCost>7000</baseCost>
 					</value>
 				</li>
 				<li Class="PatchOperationRemove">
-					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/requiredResearchFacilities</xpath>					
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/requiredResearchFacilities</xpath>					
 				</li>
 
 				<!-- iris alloy research -->
@@ -104,7 +104,7 @@
 					</value>
 				</li>
 				<li Class="PatchOperationRemove">
-					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/requiredResearchFacilities</xpath>					
+					<xpath>Defs/ResearchProjectDef[defName="SStargateMod_StargateIrisResearch"]/requiredResearchFacilities</xpath>					
 				</li>
 			</operations>
 		</match>
