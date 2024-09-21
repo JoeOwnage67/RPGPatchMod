@@ -3,7 +3,7 @@
 <Defs>
     <TraderKindDef>
         <defName>Caravan_ProstheticsTrader</defName>
-        <label>Wayfaring Artificer-Apothecary</label>
+        <label>wayfaring artificer-apothecary</label>
         <stockGenerators>
 
             <!-- base game -->
