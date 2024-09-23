@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraderKindDef>
+		<defName>Caravan_ProstheticsTrader</defName>
+		<label>wayfaring artificer-apothecary</label>
+		<commonality>3</commonality>
+		<stockGenerators>
+
+	<!-- Rimworld -->
+      <!-- Medicine -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineHerbal</thingDef>
+				<countRange>10~15</countRange>
+			</li>
+
+      <!-- Drugs -->
+			<li Class="StockGenerator_Category">
+				<categoryDef>Drugs</categoryDef>
+				<countRange>2~4</countRange>
+			</li>
+
+		<!-- Misc -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>1500~2500</countRange>
+			</li>		
+
+   		<!-- Medieval Overhaul -->
+			<!--Drugs-->
+      		<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+      			<thingDef>DankPyon_BattleElixir</thingDef>
+          		<countRange>1~3</countRange>
+            </li>
+            <li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+                <thingDef>DankPyon_HappyPowder</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+                <thingDef>DankPyon_HornetHoney</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+                <thingDef>DankPyon_Luhix</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+                <thingDef>DankPyon_Miracle</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+                <thingDef>DankPyon_Paregoric</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+                <thingDef>DankPyon_Stardust</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+                <thingDef>DankPyon_VigorPill</thingDef>
+                <countRange>1~3</countRange>
+            </li>   		
+
+			<!-- Medicine -->			   
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_Mindwort</thingDef>
+				<countRange>0~10</countRange>
+			</li>
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_Poppy</thingDef>
+				<countRange>0~10</countRange>
+			</li>
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_Fleawort</thingDef>
+				<countRange>0~10</countRange>
+			</li>
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_FlyAgaric</thingDef>
+				<countRange>0~10</countRange>
+			</li>
+
+			<!-- Misc -->
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+                <thingDef>DankPyon_Amber</thingDef>
+                <countRange>1~15</countRange>
+            </li> 
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_Category">
+				<categoryDef>DankPyon_GemStones</categoryDef>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<totalPriceRange>100~1000</totalPriceRange>
+			</li>
+		
+
+		<!-- Medieval Medicines and Prosthetics -->
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_Tag">
+                <tradeTag>BasicProstheses</tradeTag>
+                <thingDefCountRange>3~4</thingDefCountRange>
+                <countRange>1~2</countRange>
+                <price>Expensive</price>
+            </li>
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_Tag">
+                <tradeTag>Prostheses</tradeTag>
+                <thingDefCountRange>2~3</thingDefCountRange>
+                <countRange>1~2</countRange>
+                <price>Expensive</price>
+            </li> 
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_Tag">
+                <tradeTag>Mechanical</tradeTag>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>0~1</countRange>
+                <price>Expensive</price>
+            </li> 
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_Tag">
+                <tradeTag>Ambroisen</tradeTag>
+                <thingDefCountRange>0~1</thingDefCountRange>
+                <countRange>0~1</countRange>
+                <price>Expensive</price>
+            </li> 
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_SingleDef">
+                <thingDef>Joe_LesserHealingPotion</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_SingleDef">
+                <thingDef>Joe_MinorHealingPotion</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_SingleDef">
+                <thingDef>MedicineEarlyMedievalMM</thingDef>
+                <countRange>1~10</countRange>
+            </li>
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_SingleDef">
+                <thingDef>MedicineLateMedievalMM</thingDef>
+                <countRange>1~5</countRange>
+            </li>
+			<li MayRequire="JoeDaly.MedMeds.MO" Class="StockGenerator_SingleDef">
+                <thingDef>MedicineParesianMM</thingDef>
+                <countRange>0~2</countRange>
+            </li>
+						
+
+		<!-- Forgotten Realms -->
+			<!-- Misc -->
+			<li MayRequire="Neronix17.ForgottenRealms" Class="StockGenerator_SingleDef">
+                <thingDef>Forgotten_WarforgedHeartstone</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+			
+			<!-- Buy -->
+			<li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>Alcohol</tag></li>			
+			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+			<li Class="StockGenerator_BuyExpensiveSimple" />			
+			
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_BuyTradeTag"><tag>DankPyon_AlchemyIngredients</tag></li>
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_BuyTradeTag"><tag>DankPyon_Loot</tag></li>
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_BuyTradeTag"><tag>DankPyon_Book</tag></li>
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_BuyTradeTag"><tag>DankPyon_Schematic</tag></li>
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_BuyTradeTag"><tag>DankPyon_Treatise</tag></li>
+			<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_BuyTradeTag"><tag>DankPyon_Tale</tag></li>
+
+			<li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly"><thingDef>Shell_Deadlife</thingDef></li>
+		    <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly"><thingDef>VoidSculpture</thingDef></li>
+		    <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly"><thingDef>Shard</thingDef></li>
+		    <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly"><thingDef>Bioferrite</thingDef></li>
+		    <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly"><thingDef>RevenantSpine</thingDef></li>
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>
