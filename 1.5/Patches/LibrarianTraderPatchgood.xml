@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationConditional">
+		<xpath>Defs/TraderKindDef[defName="Caravan_LibrarianTrader"]/stockGenerators</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/TraderKindDef[defName="Caravan_LibrarianTrader"]/stockGenerators</xpath>	
+					<value>					
+							<stockGenerators>
+								<li Class="StockGenerator_SingleDef">
+									<thingDef>Silver</thingDef>
+									<countRange>3000~5000</countRange>
+								</li>
+								<li Class="StockGenerator_SingleDef">
+									<thingDef>MedicineIndustrial</thingDef>
+									<countRange>-5~10</countRange>
+								</li>
+								<li Class="StockGenerator_Category">
+									<categoryDef>FoodMeals</categoryDef>
+									<thingDefCountRange>0~2</thingDefCountRange>
+									<countRange>5~15</countRange>
+								</li>
+								    <li Class="StockGenerator_SingleDef">
+									<thingDef>TextBook</thingDef>
+									<countRange>0~2</countRange>
+								</li>
+
+								<li Class="StockGenerator_SingleDef">
+									<thingDef>Schematic</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li Class="StockGenerator_SingleDef">
+									<thingDef>Novel</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								
+								<li MayRequire="Ludeon.RimWorld.Anomaly" Class="StockGenerator_SingleDef">
+									<thingDef>Tome</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li Class="StockGenerator_Tag">
+									<tradeTag>Techprint</tradeTag>
+									<thingDefCountRange>6~10</thingDefCountRange>
+									<countRange>0~3</countRange>
+								</li>
+								<li MayRequire="GwinnBleidd.ResearchTweaks" Class="StockGenerator_SingleDef">
+									<thingDef>TechnologyBlueprintNeolithic</thingDef>
+									<countRange>0~3</countRange>
+								</li>
+								<li MayRequire="GwinnBleidd.ResearchTweaks" Class="StockGenerator_SingleDef">
+									<thingDef>TechnologyBlueprintMedieval</thingDef>
+									<countRange>0~2</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book</thingDef>
+									<countRange>0~3</countRange>
+								</li>          
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_MultiDef">
+									<countRange>0~1</countRange>
+									<thingDefs>
+										<li>MSSRPG_Book_LustySauridMaid_First</li>
+										<li>MSSRPG_Book_LustySauridMaid_Second</li>
+									</thingDefs>
+								</li>
+								<!--  <li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_AncientCodex</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_IntoTheRuins</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_TheBeginning</thingDef>
+									<countRange>0~1</countRange>
+								</li> -->
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Shooting</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Melee</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Construction</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Mining</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Cooking</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Plants</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Animals</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Crafting</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Artistic</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Medicine</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Social</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Treatise_Intellectual</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_MilitaryBlades</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_NobleBlades</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_MilitaryMaces</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_NobleMaces</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_MilitaryPolearms</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_NoblePolearms</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_HeavyCrossbow</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_Steel</thingDef>
+									<countRange>0~2</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_Gunpowder</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_Tar</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_GreatBow</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_WarBow</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<!-- <li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>>DankPyon_Book_IntermediateCooking</thingDef>
+									<countRange>0~1</countRange>
+								</li> -->
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_AdvancedCooking</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+									<thingDef>DankPyon_Book_BallistaRepeater</thingDef>
+									<countRange>0~1</countRange>
+								</li>
+								
+								<!-- Buying -->
+								<li Class="StockGenerator_BuyExpensiveSimple" />
+								<li Class="StockGenerator_BuyTradeTag">
+									<tag>Artifact</tag>
+								</li>
+								<li Class="StockGenerator_BuyTradeTag">
+									<tag>PsylinkNeuroformer</tag>
+								</li>
+								<li Class="StockGenerator_BuyTradeTag">
+									<tag>ExoticMisc</tag>
+								</li>
+
+								<li Class="StockGenerator_BuySingleDef">
+									<thingDef>TextBook</thingDef>
+								</li>
+
+								<li Class="StockGenerator_BuySingleDef">
+									<thingDef>Schematic</thingDef>
+								</li>
+
+								<li Class="StockGenerator_BuySingleDef">
+									<thingDef>Novel</thingDef>
+								</li>
+								
+								<li MayRequire="Ludeon.RimWorld.Anomaly" Class="StockGenerator_BuySingleDef">
+									<thingDef>Tome</thingDef>
+								</li>
+							</stockGenerators>						
+					</value>                		
+		</match>           
+    </Operation>    
+</Patch>
