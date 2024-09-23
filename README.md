@@ -31,8 +31,7 @@ Changes are applied to 1.5 branch only.
 
 -Traveling Apothecary Artificer caravan added to MO Noble Houses that sells small quantities of:  
    	-Medieval Med: MO Edition prosthetics and medicine  
- 	-Medieval Overhaul Drugs  
- 	-Neutroamine  
+ 	-Medieval Overhaul drugs, medicine, gems   
   	-Heartstone from **Asimov** for building Warforged from **Forgotten Realms**.  
  	-more  
   
