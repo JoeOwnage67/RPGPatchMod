@@ -43,7 +43,7 @@ Changes are applied to 1.5 branch only.
   
 -Added ability to mine raw oricalcum (uranium) at **Medieval Overhaul** mine and refine it into ingots at the furnace.  
 
--Added ability to mine Pyrinth at **Medieval Overhaul** if **Epochs: Pyrinth** is loaded. 
+-Added ability to mine Pyrinth at **Medieval Overhaul** mine if **Epochs: Pyrinth** is loaded. 
 
 **Replaced:**  
 -Oken's **Medieval Quest Rewards** with Botch Job's (uses patched base game defs).  
