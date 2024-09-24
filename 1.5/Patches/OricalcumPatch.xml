@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+   <Operation Class="PatchOperationFindMod">
+            <mods>
+                <li>Medieval Overhaul</li>
+            </mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/GenStepDef[defName="PreciousLump"]/genStep/mineables</xpath>
+						<value>
+							<li>MineableOricalcum</li>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Uranium"]/graphicData/texPath</xpath>
+						<value>
+							<texPath>Resources/UraniumIngot</texPath>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Plasteel"]/graphicData/texPath</xpath>
+						<value>
+							<texPath>Resources/PlasteelIngot</texPath>
+						</value>
+					</li>
+				</operations>
+			</match>
+    </Operation>
+</Patch>

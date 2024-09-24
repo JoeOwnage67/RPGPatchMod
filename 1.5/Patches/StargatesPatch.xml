@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Stargates!</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+			<!-- RESEARCH -->
+			<!-- Stargate Creation Research -->
+			<!-- makeshift -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/techLevel</xpath>
+					<value>		
+						<techLevel>Medieval</techLevel>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/prerequisites</xpath>
+					<value>		
+						<prerequisites>
+							<li>StargateMod_GlyphDeciphering</li>
+						</prerequisites>
+					</value>
+				</li>
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/requiredResearchBuilding</xpath>
+					<value>		
+						<requiredResearchBuilding>DankPyon_AdvancedResearchBench</requiredResearchBuilding>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/requiredResearchFacilities</xpath>					
+				</li>
+
+			<!-- advanced -->	
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/techLevel</xpath>
+					<value>		
+						<techLevel>Medieval</techLevel>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/prerequisites</xpath>
+					<value>		
+						<prerequisites>
+							<li>StargateMod_StargateMakingResearch</li>
+						</prerequisites>
+					</value>
+				</li>
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/requiredResearchBuilding</xpath>
+					<value>		
+						<requiredResearchBuilding>DankPyon_AdvancedResearchBench</requiredResearchBuilding>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/baseCost</xpath>
+					<value>		
+						<baseCost>7000</baseCost>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/requiredResearchFacilities</xpath>					
+				</li>
+
+				<!-- iris alloy research -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateIrisAlloyResearch"]/techLevel</xpath>
+					<value>		
+						<techLevel>Medieval</techLevel>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateIrisAlloyResearch"]/prerequisites</xpath>
+					<value>		
+						<prerequisites>
+							<li>StargateMod_GlyphDeciphering</li>
+						</prerequisites>
+					</value>
+				</li>
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateIrisAlloyResearch"]/requiredResearchBuilding</xpath>
+					<value>		
+						<requiredResearchBuilding>DankPyon_AdvancedResearchBench</requiredResearchBuilding>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateIrisAlloyResearch"]/requiredResearchFacilities</xpath>					
+				</li>
+
+				<!-- iris barrier research -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateIrisResearch"]/techLevel</xpath>
+					<value>		
+						<techLevel>Medieval</techLevel>
+					</value>
+				</li>			
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateIrisResearch"]/requiredResearchBuilding</xpath>
+					<value>		
+						<requiredResearchBuilding>DankPyon_AdvancedResearchBench</requiredResearchBuilding>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="SStargateMod_StargateIrisResearch"]/requiredResearchFacilities</xpath>					
+				</li>
+
+
+				<!-- RECIPES AND COSTLISTS -->
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="StargateMod_DialHomeDevice"]/costList</xpath>
+					<value>		
+						<costList>
+							<Steel>300</Steel>
+							<DankPyon_ComponentBasic>85</DankPyon_ComponentBasic>
+							<Gold>100</Gold>
+						</costList>
+					</value>
+				</li>
+
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="StargateMod_Stargate"]/costList</xpath>
+					<value>		
+						<costList>
+						  <Steel>600</Steel>
+						  <DankPyon_ComponentBasic>100</DankPyon_ComponentBasic>
+						  <Gold>200</Gold>
+						</costList>
+					</value>
+				</li>
+
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="StargateMod_OrlinStargate"]/costList</xpath>
+					<value>		
+						<costList>
+						  <Steel>120</Steel>
+						  <DankPyon_ComponentBasic>10</DankPyon_ComponentBasic>
+						  <Gold>30</Gold>
+						</costList>
+					</value>
+				</li>
+
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="StargateMod_AdvancedStargate"]/costList</xpath>
+					<value>		
+						<costList>
+						  <Steel>250</Steel>
+						  <Plasteel>200</Plasteel>
+						  <DankPyon_ComponentBasic>40</DankPyon_ComponentBasic>						  
+						  <Gold>150</Gold>
+						  <Uranium>80</Uranium>
+						</costList>
+					</value>
+				</li>
+
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="StargateMod_GlyphScrap"]/techLevel</xpath>
+					<value>		
+						<techLevel>Medieval</techLevel>
+					</value>
+				</li>
+
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="StargateMod_IrisInstallKit"]/techLevel</xpath>
+					<value>		
+						<techLevel>Medieval</techLevel>
+					</value>
+				</li>
+
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="StargateMod_MakeAdvancedStargate"]/ingredients</xpath>
+					<value>		
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Steel</li>
+									</thingDefs>
+								</filter>
+								<count>250</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Plasteel</li>
+									</thingDefs>
+								</filter>
+								<count>200</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>DankPyon_ComponentBasic</li>
+									</thingDefs>
+								</filter>
+								<count>40</count>
+							</li>					
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Gold</li>
+									</thingDefs>
+								</filter>
+								<count>150</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Uranium</li>
+									</thingDefs>
+								</filter>
+								<count>80</count>
+							</li>
+						</ingredients>
+					</value>
+				</li>
+
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="StargateMod_MakeIrisInstallKit"]/ingredients</xpath>
+					<value>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>DankPyon_ComponentBasic</li>
+									</thingDefs>
+								</filter>
+								<count>10</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Steel</li>
+									</thingDefs>
+								</filter>
+								<count>500</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Uranium</li>
+									</thingDefs>
+								</filter>
+								<count>350</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Plasteel</li>
+									</thingDefs>
+								</filter>
+								<count>200</count>
+							</li>
+						</ingredients>
+					</value>
+				</li>
+
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="StargateMod_MakeOrlinStargate"]/ingredients</xpath>
+					<value>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Steel</li>
+									</thingDefs>
+								</filter>
+								<count>120</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>DankPyon_ComponentBasic</li>
+									</thingDefs>
+								</filter>
+								<count>10</count>
+							</li>							
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Gold</li>
+									</thingDefs>
+								</filter>
+								<count>3</count>
+							</li>
+						</ingredients>
+					</value>
+				</li>
+
+				<li MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="StargateMod_RecipeBase"]</xpath>
+					<value>
+						<recipeUsers>
+							<li>DankPyon_Furnace</li>
+						</recipeUsers>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>

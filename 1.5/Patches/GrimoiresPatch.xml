@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationFindMod">
+			<mods>
+				<li>Grimoires</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="DankPyon_LootableShelf_Book"]/modExtensions/li[@Class="MedievalOverhaul.BuildingLootableExtension"]/randomItems</xpath>
+						<value>
+							<li>LTS_PsytrainerGrimoire_UnnaturalHealing</li>
+							<li>LTS_PsytrainerGrimoire_ShapeFlesh</li>
+							<li>LTS_PsytrainerGrimoire_TransmuteSteel</li>
+							<li>LTS_PsytrainerGrimoire_PsychicSlaughter</li>
+							<li>LTS_PsytrainerGrimoire_ReleaseDeadlifeDust</li>							
+						</value>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="DankPyon_HideoutShelfFilledBook"]/modExtensions/li[@Class="MedievalOverhaul.BuildingLootableExtension"]/randomItems</xpath>
+						<value>
+							<li>LTS_PsytrainerGrimoire_UnnaturalHealing</li>
+							<li>LTS_PsytrainerGrimoire_ShapeFlesh</li>
+							<li>LTS_PsytrainerGrimoire_TransmuteSteel</li>
+							<li>LTS_PsytrainerGrimoire_PsychicSlaughter</li>
+							<li>LTS_PsytrainerGrimoire_ReleaseDeadlifeDust</li>							
+						</value>
+					</li>
+				</operations>
+			</match>
+		</match>
+	</Operation>
+</Patch>		
