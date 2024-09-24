@@ -2,13 +2,13 @@
 
 <Defs>
 	<RecipeDef MayRequire="det.epochspyrinth" ParentName="DankPyon_MineShaftBase">
-		<defName>DV_Pyrinth</defName>
+		<defName>Mine_Pyrinth</defName>
 		<description>Mine deep down underground to obtain raw pyrinth.</description>
 		<workAmount>1000</workAmount>
 		<label>mine raw pyrinth</label>
 		<jobString>Mining raw pyrinth.</jobString>
 		<products>
-			<det.epochspyrinth>1</det.epochspyrinth>
+			<DV_Pyrinth>1</DV_Pyrinth>
 		</products>
 	</RecipeDef>
 </Defs>
