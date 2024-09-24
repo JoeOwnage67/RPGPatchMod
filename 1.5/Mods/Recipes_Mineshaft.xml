@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<RecipeDef MayRequire="det.epochspyrinth" ParentName="DankPyon_MineShaftBase">
+		<defName>DV_Pyrinth</defName>
+		<description>Mine deep down underground to obtain raw pyrinth.</description>
+		<workAmount>6000</workAmount>
+		<label>mine raw oricalcum</label>
+		<jobString>Mining raw oricalcum.</jobString>
+		<products>
+			<det.epochspyrinth>1</det.epochspyrinth>
+		</products>
+	</RecipeDef>
+</Defs>
