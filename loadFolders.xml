@@ -9,5 +9,6 @@
     <li IfModActive="Ludeon.RimWorld.Royalty">1.5/Mods/Royalty</li>
     <li IfModActive="RedMattis.BetterPrerequisites">1.5/Mods/BigSmall</li>
     <li IfModActive="JoeDaly.MedMeds.MO">1.5/Mods/MedMeds</li>
+    <li IfModActive="Rebuild.COTR.DoorsandCorners">1.5/Mods/Rebuild</li>
   </v1.5>
 </loadFolders>
