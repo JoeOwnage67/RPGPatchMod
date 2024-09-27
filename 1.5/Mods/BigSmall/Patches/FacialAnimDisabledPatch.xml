@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Big and Small - Framework</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<operations>				
-		
+<Patch>	
 				<!-- loxodon -->
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>FRBE Addon - Loxo</li>
 					</mods>
@@ -41,10 +34,10 @@
 							</genes>
 						</value>   
 					</match>
-				</li>
+				</Operation>
 				
 				<!-- Aard gnoll -->
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>FRBE Addon - Gnolls</li>
 					</mods>
@@ -91,10 +84,10 @@
 							
 						</value>   
 					</match>
-				</li>
+				</Operation>
 				
 				<!-- Flind Gnoll -->
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>FRBE Addon - Gnolls</li>
 					</mods>
@@ -144,10 +137,10 @@
 							</genes>							
 						</value>   
 					</match>
-				</li>
+				</Operation>
 				
 				<!-- gnoll base -->
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>FRBE Addon - Gnolls</li>
 					</mods>
@@ -197,10 +190,10 @@
 							</genes>							
 						</value>   
 					</match>
-				</li>
+				</Operation>
 				
 				<!-- Bonereapers -->
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>pphhyy BoneReapers</li>
 					</mods>
@@ -220,9 +213,9 @@
 							</genes>    							
 						</value>   
 					</match>
-				</li>
+				</Operation>
 				
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>pphhyy BoneReapers</li>
 					</mods>
@@ -238,9 +231,9 @@
 							</genes>    							
 						</value>   
 					</match>
-				</li>
+				</Operation>
 				
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>pphhyy BoneReapers</li>
 					</mods>
@@ -258,9 +251,9 @@
 							</genes>    							
 						</value>   
 					</match>
-				</li>
+				</Operation>
 				
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>pphhyy BoneReapers</li>
 					</mods>
@@ -282,9 +275,9 @@
 							</genes>    							
 						</value>   
 					</match>
-				</li>
+				</Operation
 				
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>pphhyy BoneReapers</li>
 					</mods>
@@ -304,10 +297,10 @@
 							</genes>    							
 						</value>   
 					</match>
-				</li>		
+				</Operation>		
 				
 				<!-- Alpha Genes -->
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>Alpha Genes</li>
 					</mods>
@@ -329,9 +322,9 @@
 							</genes>							
 						</value>   
 					</match>
-				</li>
+				</Operation>
 				
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>Alpha Genes</li>
 					</mods>
@@ -356,9 +349,9 @@
 							</genes>								
 						</value>   
 					</match>
-				</li>				
+				</Operation>				
 					
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>Alpha Genes</li>
 					</mods>
@@ -382,10 +375,10 @@
 							</genes>							
 						</value>   
 					</match>
-				</li>
+				</Operation>
 				
 				<!--remove illithid crown -->
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>Alpha Genes</li>
 					</mods>
@@ -411,9 +404,9 @@
 							</genes>		
 						</value>   
 					</match>
-				</li>
+				</Operation>
 				
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>Alpha Genes</li>
 					</mods>
@@ -450,9 +443,9 @@
 							
 						</value>   
 					</match>
-				</li>
+				</Operation>
 				
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>Alpha Genes</li>
 					</mods>
@@ -481,9 +474,9 @@
 								</genes>							
 						</value>   
 					</match>
-				</li>
+				</Operation>
 
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>Alpha Genes</li>
 					</mods>
@@ -513,10 +506,10 @@
 								</genes>							
 						</value>   
 					</match>
-				</li>
+				</Operation>
 
 				<!-- Forgotten Realms -->
-				<li Class="PatchOperationFindMod">
+				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>Forgotten Realms - Biotech Edition</li>
 					</mods>
@@ -546,10 +539,6 @@
 								</genes>							
 						</value>   
 					</match>
-				</li>
-
-				
-			</operations>
-		</match>
-	</Operation>	
+				</Operation>
+		
 </Patch>
