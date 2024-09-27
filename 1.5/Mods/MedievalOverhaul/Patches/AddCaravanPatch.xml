@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="DankPyon_NobleHouseFactionBase"]/caravanTraderKinds</xpath>
+		<value>                 
+			<li>Caravan_ProstheticsTrader</li>
+		</value>
+	</Operation>	
+  
+</Patch>
