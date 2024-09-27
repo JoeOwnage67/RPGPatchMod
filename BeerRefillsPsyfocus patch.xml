@@ -1,0 +1,44 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<Patch>
+<Operation Class="PatchOperationFindMod">
+<mods>
+<li>Medieval Overhaul</li>
+</mods>
+<match Class="PatchOperationSequence">
+<operations>
+<li Class="PatchOperationAdd">
+<xpath>Defs/ThingDef[defName = "DankPyon_Ale"]/ingestible/outcomeDoers</xpath>
+<value>
+<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+<offset>0.05</offset>
+</li>
+</value>
+</li>
+<li Class="PatchOperationAdd">
+<xpath>Defs/ThingDef[defName = "DankPyon_Mead"]/ingestible/outcomeDoers</xpath>
+<value>
+<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+<offset>0.05</offset>
+</li>
+</value>
+</li>
+<li Class="PatchOperationAdd">
+<xpath>Defs/ThingDef[defName = "DankPyon_Wine"]/ingestible/outcomeDoers</xpath>
+<value>
+<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+<offset>0.1</offset>
+</li>
+</value>
+</li>
+<li Class="PatchOperationAdd">
+<xpath>Defs/ThingDef[defName = "DankPyon_Cider"]/ingestible/outcomeDoers</xpath>
+<value>
+<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+<offset>0.05</offset>
+</li>
+</value>
+</li>
+</operations>
+</match>
+</Operation>
+</Patch>
