@@ -7,79 +7,150 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>	
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="DankPyon_Ale"]/ingestible/outcomeDoers</xpath>
-					<value>
-						<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
-							<offset>0.05</offset>
-						</li>
-					</value>
-				</li>
-					
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="DankPyon_Mead"]/ingestible/outcomeDoers</xpath>
-					<value>
-						<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
-							<offset>0.05</offset>
-						</li>
-					</value>
-				</li>
-			
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="DankPyon_Wine"]/ingestible/outcomeDoers</xpath>
-					<value>
-						<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
-							<offset>0.05</offset>
-						</li>
-					</value>
-				</li>
-							
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="DankPyon_Cider"]/ingestible/outcomeDoers</xpath>
-					<value>
-						<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
-							<offset>0.05</offset>
-						</li>
-					</value>
-				</li>
-			
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="DankPyon_Wine_Mulberry"]/ingestible/outcomeDoers</xpath>
-					<value>
-						<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
-							<offset>0.05</offset>
-						</li>
-					</value>
-				</li>
-			
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="DankPyon_Wine_Griffon"]/ingestible/outcomeDoers</xpath>
-					<value>
-						<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
-							<offset>0.05</offset>
-						</li>
-					</value>
-				</li>
-			
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="DankPyon_Wine_Ice"]/ingestible/outcomeDoers</xpath>
-					<value>
-						<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
-							<offset>0.05</offset>
-						</li>
-					</value>
-				</li>
 				
-				<li MayRequire="dankpyon.medieval.overhaul.house.roxmont" Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="DankPyon_RoxberryStout"]/ingestible/outcomeDoers</xpath>
-					<value>
-						<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
-							<offset>0.05</offset>
-						</li>
-					</value>
-				</li>  
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Beer Refills Psyfocus</li>
+					</mods>
+					<nomatch Class="PatchOperationSequence">
+						<operations>
+							
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_Ale"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>
+						
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_Mead"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>
+				
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_Wine"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>
+										
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_Cider"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>
+				
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_Wine_Mulberry"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>
+						
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_Wine_Griffon"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>
+				
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_Wine_Ice"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>
+							
+							<li MayRequire="dankpyon.medieval.overhaul.house.roxmont" Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_RoxberryStout"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>  
+
+						</operations>
+					</nomatch>
+				</li>
+			</operations>
+		</match>	
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>	
+				
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Beer Refills Psyfocus</li>
+					</mods>
+
+					<match Class="PatchOperationSequence">
+						<operations>
+							
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_Wine_Mulberry"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>
+						
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_Wine_Griffon"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>
+						
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_Wine_Ice"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>
+							
+							<li MayRequire="dankpyon.medieval.overhaul.house.roxmont" Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName="DankPyon_RoxberryStout"]/ingestible/outcomeDoers</xpath>
+								<value>
+									<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+										<offset>0.05</offset>
+									</li>
+								</value>
+							</li>  
+
+						</operations>
+					</match>
+
+				</li>
 				
 			</operations>
 		</match>
-	</Operation>
+	</Operation>	
 </Patch>
