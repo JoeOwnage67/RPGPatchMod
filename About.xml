@@ -9,6 +9,7 @@
 	<packageId>JoeDaly.CustomPatches.RPG</packageId>
   
 	<loadAfter>
+		<li>Ludeon.RimWorld.Royalty</li>
 		<li>MrSamuelStreamer.RPGAdventureFlavour</li>	
 		<li>DankPyon.Medieval.Overhaul</li>
 		<li>JoeDaly.MedMeds.MO</li>
@@ -26,6 +27,8 @@
 		<li>Neronix17.ForgottenRealms</li>
 		<li>sarg.alphagenes</li>
 		<li>det.epochspyrinth</li>
+		<li>SirMashedPotato.Ashlands</li>
+		<li>dankpyon.medieval.overhaul.house.roxmont</li>
 	</loadAfter>
 
 	<modDependencies>	  
