@@ -1,0 +1,42 @@
+kj<!--  ======== Mech Serums ========  -->
+<li Class="PatchOperationReplace">
+<xpath>/Defs/ThingDef[defName ="MechSerumHealer"]/label</xpath>
+<value>
+<label>healing potion</label>
+</value>
+</li>
+<li Class="PatchOperationReplace">
+<xpath>/Defs/ThingDef[defName ="MechSerumHealer"]/description</xpath>
+<value>
+<description>A highly potent healing potion.\n\nConsuming the potion will heal the single worst health condition affecting someone at any given time.\n\nWorks even on health conditions that would otherwise be incurable. The healing effect can even regenerate missing limbs or organs.</description>
+</value>
+</li>
+<li Class="PatchOperationReplace">
+<xpath>/Defs/RecipeDef[defName ="AdministerMechSerumHealer"]/label</xpath>
+<value>
+<label>administer healing potion</label>
+</value>
+</li>
+<li Class="PatchOperationReplace">
+<xpath>/Defs/RecipeDef[defName ="AdministerMechSerumHealer"]/description</xpath>
+<value>
+<description>administer a healing potion</description>
+</value>
+</li>
+<li Class="PatchOperationReplace">
+<xpath>/Defs/RecipeDef[defName ="AdministerMechSerumHealer"]/jobString</xpath>
+<value>
+<jobString>administering a healing potion</jobString>
+</value>
+</li>
+<li Class="PatchOperationReplace">
+<xpath>/Defs/ThingDef[defName ="MechSerumResurrector"]/label</xpath>
+<value>
+<label>rebirth potion</label>
+</value>
+</li>
+<li Class="PatchOperationReplace">
+<xpath>/Defs/ThingDef[defName ="MechSerumResurrector"]/description</xpath>
+<value>
+<description>A highly potent resurrection potion capable of bringing the dead back to life.\n\nUnfortunately, those brought back may suffer from brain damage, blindness, or progressive madness. They will also experience mild amnesia, forgetting some recent memories and social interactions.\n\nOutcomes are better when used on a fresher body. If a body is preserved, it can even be resurrected long after death.</description>
+</value>
