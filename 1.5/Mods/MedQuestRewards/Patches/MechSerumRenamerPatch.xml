@@ -1,5 +1,7 @@
-kj<!--  ======== Mech Serums ========  -->
-<li Class="PatchOperationReplace">
+<packageId>BotchJob.medievalfantasyquestrewards</packageId>
+
+
+kj<!--  ======== Mech Serums ========  --><li Class="PatchOperationReplace">
 <xpath>/Defs/ThingDef[defName ="MechSerumHealer"]/label</xpath>
 <value>
 <label>healing potion</label>
