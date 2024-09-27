@@ -6,5 +6,6 @@
     <li IfModActive="DankPyon.Medieval.Overhaul">1.5/Mods/MedievalOverhaul</li>    
     <li IfModActive="Sabrael.FRBELoxo">1.5/Mods/FRBELoxo</li>	
     <li IfModActive="JoeDaly.MedMeds.MO">1.5/Mods/MedMeds</li>	
+    <li IfModActive="Ludeon.RimWorld.Royalty">1.5/Mods/Royalty</li>
   </v1.5>
 </loadFolders>
