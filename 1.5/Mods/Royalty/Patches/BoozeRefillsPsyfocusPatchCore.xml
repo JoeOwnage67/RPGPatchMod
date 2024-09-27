@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-				<Operation Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="beer"]/ingestible/outcomeDoers</xpath>
-					<value>
-						<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
-							<offset>0.05</offset>
-						</li>
-					</value>
-				</Operation>					
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Beer Refills Psyfocus</li>
+		</mods>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="beer"]/ingestible/outcomeDoers</xpath>
+			<value>
+				<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+					<offset>0.05</offset>
+				</li>
+			</value>
+		</nomatch>
+	</Operation>					
 
 </Patch>
+
+
