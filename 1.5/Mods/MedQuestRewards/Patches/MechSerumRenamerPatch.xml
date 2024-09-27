@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--<packageId>BotchJob.medievalfantasyquestrewards</packageId>-->
-<li Class="PatchOperationReplace">
-<xpath>/Defs/ThingDef[defName ="MechSerumResurrector"]/description</xpath>
-<value>
-<description>A highly potent resurrection potion capable of bringing the dead back to life.\n\nUnfortunately, those brought back may suffer from brain damage, blindness, or progressive madness. They will also experience mild amnesia, forgetting some recent memories and social interactions.\n\nOutcomes are better when used on a fresher body. If a body is preserved, it can even be resurrected long after death.</description>
-</value>
-</li>
+
 <Patch>
 
-  <!--  ======== Mech Serums ========  -->
-  
+  <!--  ======== Mech Serums ========  -->  
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName ="MechSerumHealer"]/label</xpath>
 		<value>
@@ -44,9 +38,12 @@
 			<label>supreme healing potion</label>
 		</value>
 	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName ="MechSerumResurrector"]/description</xpath>
+		<value>
+			<description>A potion of such potent magic that a few drops placed in the mouth of a corpse can resurrect the dead.\n\nUnfortunately, those brought back may suffer from brain damage, blindness, or progressive madness. They will also experience mild amnesia, forgetting some recent memories and social interactions.\n\nOutcomes are better when used on a fresher body. If a body is preserved, it can even be resurrected long after death.</description>
+		</value>
+	</Operation>
 	
-	<li Class="PatchOperationReplace">
-	<xpath>/Defs/ThingDef[defName ="MechSerumResurrector"]/description</xpath>
-	<value>
-	<description>A highly potent resurrection potion capable of bringing the dead back to life.\n\nUnfortunately, those brought back may suffer from brain damage, blindness, or progressive madness. They will also experience mild amnesia, forgetting some recent memories and social interactions.\n\nOutcomes are better when used on a fresher body. If a body is preserved, it can even be resurrected long after death.</description>
-	</value>
+	
