@@ -8,6 +8,5 @@
     <li IfModActive="JoeDaly.MedMeds.MO">1.5/Mods/MedMeds</li>	
     <li IfModActive="Ludeon.RimWorld.Royalty">1.5/Mods/Royalty</li>
     <li IfModActive="RedMattis.BetterPrerequisites">1.5/Mods/BigSmall</li>
-    <li IfModActive="zal.eyeprosthetics">1.5/Mods/EyePros</li>
   </v1.5>
 </loadFolders>
