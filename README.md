@@ -43,8 +43,10 @@ Changes are applied to 1.5 branch only.
   
 -Added ability to mine raw oricalcum (uranium) at **Medieval Overhaul** mine and refine it into ingots at the furnace.  
 
--Added ability to mine Pyrinth at **Medieval Overhaul** mine if **Epochs: Pyrinth** is loaded. 
-
+-Added ability to mine Pyrinth at **Medieval Overhaul** mine if **Epochs: Pyrinth** is loaded.  
+  
+-All different alcohols from Core, **Medieval Overhaul**, **Stoneborn Delights**, and **Mashed's Ashlands** now restore psyfocus.  
+  
 **Replaced:**  
 -Oken's **Medieval Quest Rewards** with Botch Job's (uses patched base game defs).  
 
