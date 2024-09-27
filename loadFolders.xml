@@ -11,5 +11,6 @@
     <li IfModActive="JoeDaly.MedMeds.MO">1.5/Mods/MedMeds</li>
     <li IfModActive="Rebuild.COTR.DoorsandCorners">1.5/Mods/Rebuild</li>
     <li IfModActive="ccyt.stargatesmod">1.5/Mods/Stargates</li>
+    <li IfModActive="BotchJob.medievalfantasyquestrewards">1.5/Mods/MedQuestRewards</li>    
   </v1.5>
 </loadFolders>
