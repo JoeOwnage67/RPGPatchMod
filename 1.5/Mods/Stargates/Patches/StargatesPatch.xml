@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>	
+	
+	<!-- RESEARCH -->
+	<!-- Stargate Creation Research -->
+	<!-- makeshift -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/techLevel</xpath>
+		<value>		
+			<techLevel>Medieval</techLevel>
+		</value>
+	</Operation>
+				
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/prerequisites</xpath>
+		<value>		
+			<prerequisites>
+				<li>StargateMod_GlyphDeciphering</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateMakingResearch"]/requiredResearchFacilities</xpath>					
+	</Operation>
+
+	<!-- advanced -->	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/techLevel</xpath>
+		<value>		
+			<techLevel>Medieval</techLevel>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/prerequisites</xpath>
+		<value>		
+			<prerequisites>
+				<li>StargateMod_StargateMakingResearch</li>
+			</prerequisites>
+		</value>
+	</Operation>
+				
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/baseCost</xpath>
+		<value>		
+			<baseCost>7000</baseCost>
+		</value>
+	</Operation>
+				
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="StargateMod_AdvancedStargateMakingResearch"]/requiredResearchFacilities</xpath>					
+	</Operation>
+
+	<!-- iris alloy research -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateIrisAlloyResearch"]/techLevel</xpath>
+		<value>		
+			<techLevel>Medieval</techLevel>
+		</value>
+	</Operation>
+				
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateIrisAlloyResearch"]/prerequisites</xpath>
+		<value>		
+			<prerequisites>
+				<li>StargateMod_GlyphDeciphering</li>
+			</prerequisites>
+		</value>
+	</Operation>			
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateIrisAlloyResearch"]/requiredResearchFacilities</xpath>					
+	</Operation>
+
+	<!-- iris barrier research -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="StargateMod_StargateIrisResearch"]/techLevel</xpath>
+		<value>		
+			<techLevel>Medieval</techLevel>
+		</value>
+	</Operation>			
+
+</Patch>
