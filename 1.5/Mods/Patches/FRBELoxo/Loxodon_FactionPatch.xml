@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- remove loxodon xenotype chance from factions, need to add loxos back in as a pawnkind so they don't wear headgear (it doesn't fit) -->
+<Patch>	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances/SAB_Loxodon</xpath>					
+	</Operation>			
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/FactionDef[defName="TribeCivil" or defName="TribeRough" or defName="TribeSavage"]/xenotypeSet/xenotypeChances/SAB_Loxodon</xpath>				
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/FactionDef[@Name="PirateBandBase"]/xenotypeSet/xenotypeChances/SAB_Loxodon</xpath>			
+	</Operation>
+</Patch>
