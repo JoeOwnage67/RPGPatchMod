@@ -60,7 +60,12 @@ Changes are applied to 1.5 branch only.
 2. GwenBlanketSpecter's "Meditation Traits and Genes"  
 3. Danzen's "Vanilla Psycast Expanded - Biotech Integration"  
 4. LTS's "Glowing eyes genes"  
-5. 6262soudai's "VPE-Biotech Integration for Alpha Animals and More!" 
+5. 6262soudai's "VPE-Biotech Integration for Alpha Animals and More!"
+
+**ISSUES:**  
+----
+
+Please let me know on steam or on github if you have any issues with this mod so I can resolve them quickly.
      
 
    		
