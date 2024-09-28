@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <Operation Class="PatchOperationConditional">
+   <!-- <Operation Class="PatchOperationConditional">
 		<xpath>Defs/TraderKindDef[defName="Caravan_LibrarianTrader"]/stockGenerators</xpath>
                 <match Class="PatchOperationReplace">
                     <xpath>Defs/TraderKindDef[defName="Caravan_LibrarianTrader"]/stockGenerators</xpath>	
@@ -62,7 +62,7 @@
 										<li>MSSRPG_Book_LustySauridMaid_Second</li>
 									</thingDefs>
 								</li>
-								<!--  <li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
 									<thingDef>DankPyon_Book_AncientCodex</thingDef>
 									<countRange>0~1</countRange>
 								</li>
@@ -73,7 +73,7 @@
 								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
 									<thingDef>DankPyon_Book_TheBeginning</thingDef>
 									<countRange>0~1</countRange>
-								</li> -->
+								</li>
 								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
 									<thingDef>DankPyon_Treatise_Shooting</thingDef>
 									<countRange>0~1</countRange>
@@ -170,10 +170,10 @@
 									<thingDef>DankPyon_Book_WarBow</thingDef>
 									<countRange>0~1</countRange>
 								</li>
-								<!-- <li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
+								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
 									<thingDef>>DankPyon_Book_IntermediateCooking</thingDef>
 									<countRange>0~1</countRange>
-								</li> -->
+								</li>
 								<li MayRequire="DankPyon.Medieval.Overhaul" Class="StockGenerator_SingleDef">
 									<thingDef>DankPyon_Book_AdvancedCooking</thingDef>
 									<countRange>0~1</countRange>
@@ -183,7 +183,7 @@
 									<countRange>0~1</countRange>
 								</li>
 								
-								<!-- Buying -->
+								
 								<li Class="StockGenerator_BuyExpensiveSimple" />
 								<li Class="StockGenerator_BuyTradeTag">
 									<tag>Artifact</tag>
@@ -213,5 +213,5 @@
 							</stockGenerators>						
 					</value>                		
 		</match>           
-    </Operation>    
+    </Operation>   --> 
 </Patch>
